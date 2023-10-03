@@ -1,0 +1,4 @@
+main_tareas_dinamicas.adb:3:12: error: subtype mark required in this context
+main_tareas_dinamicas.adb:3:12: error: found "TareaGeneraAviones" declared at pkg_tareas_dinamicas.ads:27
+main_tareas_dinamicas.adb:4:15: error: unconstrained subtype not allowed (need initialization)
+main_tareas_dinamicas.adb:5:15: error: unconstrained subtype not allowed (need initialization)

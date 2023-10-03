@@ -1,0 +1,7 @@
+ejercicio3.adb:31:43: error: no candidate interpretations match the actuals:
+ejercicio3.adb:31:43: error: missing argument for parameter "Item" in call to "put" declared at a-tienio.ads:69, instance at pkg_ejercicio2.ads:8
+ejercicio3.adb:31:43: error: missing argument for parameter "Item" in call to "put" declared at a-tienio.ads:40, instance at pkg_ejercicio2.ads:8
+ejercicio3.adb:31:43: error: possible missing instantiation of Text_IO.Integer_IO
+ejercicio3.adb:31:48: error: expected type "TdiasSemana" defined at pkg_ejercicio2.ads:4
+ejercicio3.adb:31:48: error: found type "Standard.Integer"
+ejercicio3.adb:31:48: error:   ==> in call to "Put" at a-tienio.ads:52, instance at pkg_ejercicio2.ads:8

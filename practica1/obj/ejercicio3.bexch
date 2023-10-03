@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__ejercicio3.o
+[PROJECT FILES]
+C:\GNAT\2021\bin\practica1\practica1.gpr
+20230919155810 423e33e3af979b8eb7f2b96782af9f22
+[BOUND OBJECT FILES]
+C:\GNAT\2021\bin\practica1\obj\pkg_ejercicio2.o
+C:\GNAT\2021\bin\practica1\obj\ejercicio3.o
+[GENERATED SOURCE FILES]
+b__ejercicio3.ads
+b__ejercicio3.adb
+b__ejercicio3.ali
+[RESULTING OPTIONS]
+-LC:\GNAT\2021\bin\practica1\obj\
+-LC:\GNAT\2021\bin\practica1\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

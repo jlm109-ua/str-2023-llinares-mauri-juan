@@ -1,0 +1,65 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV MAX_TASKS=1+
+
+U main_tareas_estaticas%b  main_tareas_estaticas.adb  ad8b2e78 NE OO SU IL
+W pkg_tareas_estaticas%s  pkg_tareas_estaticas.adb  pkg_tareas_estaticas.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-reatim.ads		20210520051128 0240fc73 ada.real_time%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-c.ads		20210520051132 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
+D main_tareas_estaticas.adb  20231002170250 7b1171da main_tareas_estaticas%b
+D pkg_tareas_estaticas.ads  20231002170430 d69a5fa2 pkg_tareas_estaticas%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-multip.ads		20210520051134 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20210520051128 97504df8 system.os_interface%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051134 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20210520051128 601f6b72 system.task_info%s
+D s-taspri.ads		20210520051128 a1350802 system.task_primitives%s
+D s-taprop.ads		20210520051128 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20210520051128 88fba9ad system.tasking%s
+D s-tassta.ads		20210520051128 cca55c94 system.tasking.stages%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-win32.ads		20210520051136 15ac53fb system.win32%s
+G a e
+G c Z b b [main_tareas_estaticas standard 2 11 none]
+G r s t_tarea [main_tareas_estaticas standard 2 11 none] [t_tareaVIP pkg_tareas_estaticas 2 2 none]
+G r q none [main_tareas_estaticas standard 2 11 none] [t_tarea pkg_tareas_estaticas 2 12 none]
+X 8 main_tareas_estaticas.adb
+2U11*main_tareas_estaticas 2b11 8l5 8t26
+3t2 tarea1{9|2T12}
+4t2 tarea2{9|2T12}
+5t2 tarea3{9|2T12}
+X 9 pkg_tareas_estaticas.ads
+1K9*pkg_tareas_estaticas 8|1w6 1r32 9|3e25
+2T12*T_Tarea 8|3r11 4r11 5r11
+X 19 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+
