@@ -9,3 +9,17 @@ Inicializando Entorno Gráfico...
 Entorno Gráfico Inicializado.
 Informacion del avion
 Informacion del avion
+Informacion del avion
+Informacion del avion
+Informacion del avion
+Informacion del avion
+colision entre:  1- 1   0- 1   distancia: 45
+ERROR en TASK ...: PKG_TIPOS.DETECTADA_COLISION
+Informacion del avion
+Informacion del avion
+colision entre:  0- 4   1- 4   distancia: 0
+ERROR en TASK ...: PKG_TIPOS.DETECTADA_COLISION
+Informacion del avion
+Informacion del avion
+colision entre:  0- 2   2- 2   distancia: 30
+ERROR en TASK ...: PKG_TIPOS.DETECTADA_COLISION

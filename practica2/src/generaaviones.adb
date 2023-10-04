@@ -50,7 +50,18 @@ package body GeneraAviones is
       Put_line("TASK Avion: " & T_IdAvion'Image(ptr_avion.id) & " -" 
                & T_Rango_AereoVia'Image(ptr_avion.aereovia));
      
+      if avion.aereovia / 2 /= 0 then
+         avion.velocidad.X := VELOCIDAD_VUELO;
+      else
+         avion.velocidad.X := -VELOCIDAD_VUELO;
+      end if;
+      
       Aparece(avion);
+      
+      loop
+         Actualiza_Movimiento(avion);
+         delay(PKG_tipos.RETARDO_MOVIMIENTO);
+      end loop;
       
       exception
       when event : DETECTADA_COLISION =>

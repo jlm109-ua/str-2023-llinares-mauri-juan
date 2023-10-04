@@ -48,7 +48,7 @@ D gdk-screen.ads	20210519053508 9fe578a4 gdk.screen%s
 D gdk-types.ads		20210519053508 921dc8b2 gdk.types%s
 D gdk-visual.ads	20210519053508 615e934c gdk.visual%s
 D gdk-window.ads	20210519053508 aa508024 gdk.window%s
-D generaaviones.ads	20231004151604 3430f3ba generaaviones%s
+D generaaviones.ads	20231004152233 3430f3ba generaaviones%s
 D glib.ads		20210519053508 7d107887 glib%s
 D glib-error.ads	20210519053508 e055fabe glib.error%s
 D glib-generic_properties.ads  20210519053508 f3dc70df glib.generic_properties%s
@@ -167,7 +167,7 @@ X 35 gdk-window.ads
 280V13*Convert{104|67M9} 40|58i21
 281V13*Convert{20|43P9} 40|59i21
 X 36 generaaviones.ads
-16K9*GeneraAviones 22e18 86|2w6 3r5
+9K9*GeneraAviones 15e18 86|2w6 3r5
 X 37 glib.ads
 153P9*C_Proxy(150R9)
 X 43 glib-object.ads
