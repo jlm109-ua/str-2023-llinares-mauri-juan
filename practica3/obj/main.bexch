@@ -1,0 +1,36 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/str/Escritorio/str-2023-llinares-mauri-juan/practica3/practica3.gpr
+20231010074040 0a2b4cdf9a42c5de01363592bf5d737a
+/usr/gnat/lib/gnat/gtkada.gpr
+20210624154234 62e3c3d91db7a53d915006648932ca0a
+[BOUND OBJECT FILES]
+/home/str/Escritorio/str-2023-llinares-mauri-juan/practica3/obj/pkg_buffergenerico.o
+/home/str/Escritorio/str-2023-llinares-mauri-juan/practica3/obj/pkg_debug.o
+/home/str/Escritorio/str-2023-llinares-mauri-juan/practica3/obj/pkg_tipos.o
+/home/str/Escritorio/str-2023-llinares-mauri-juan/practica3/obj/double_buffer.o
+/home/str/Escritorio/str-2023-llinares-mauri-juan/practica3/obj/pkg_graficos.o
+/home/str/Escritorio/str-2023-llinares-mauri-juan/practica3/obj/generaaviones.o
+/home/str/Escritorio/str-2023-llinares-mauri-juan/practica3/obj/pkg_retardos.o
+/home/str/Escritorio/str-2023-llinares-mauri-juan/practica3/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/str/Escritorio/str-2023-llinares-mauri-juan/practica3/obj/
+-L/home/str/Escritorio/str-2023-llinares-mauri-juan/practica3/obj/
+-L/usr/gnat/lib/gtkada/gtkada.static/gtkada/
+-L/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+-shared-libgcc
+-shared-libgcc
+-shared-libgcc
+/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnarl.a
+/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-lrt
+-lpthread
+-lm
+-ldl

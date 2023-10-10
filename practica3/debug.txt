@@ -1,0 +1,24 @@
+ 
+**************************************************************************
+**************************************************************************
+          PRACTICA STR: CONTROL DE TRAFICO AEREO
+**************************************************************************
+**************************************************************************
+ 
+Inicializando Entorno Gráfico...
+Entorno Gráfico Inicializado.
+Informacion del avion
+Informacion del avion
+Informacion del avion
+Informacion del avion
+Informacion del avion
+Informacion del avion
+Informacion del avion
+colision entre:  0- 3   1- 3   distancia: 34
+colision entre:  1- 3   0- 3   distancia: 39
+ERROR en TASK ...: PKG_TIPOS.DETECTADA_COLISION
+ERROR en TASK ...: PKG_TIPOS.DETECTADA_COLISION
+Informacion del avion
+Informacion del avion
+colision entre:  1- 1   2- 1   distancia: 35
+ERROR en TASK ...: PKG_TIPOS.DETECTADA_COLISION

@@ -1,0 +1,1208 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U pkg_graficos%b	pkg_graficos.adb	586731ae OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W double_buffer%s	double_buffer.adb	double_buffer.ali  AD
+W gdk%s			gdk.ads			gdk.ali
+W gdk.color%s		gdk-color.adb		gdk-color.ali
+W gdk.pixbuf%s		gdk-pixbuf.adb		gdk-pixbuf.ali
+W gdk.window%s		gdk-window.adb		gdk-window.ali
+Z glib.main%s		glib-main.adb		glib-main.ali  ED
+W gnat%s		gnat.ads		gnat.ali
+W gnat.os_lib%s		g-os_lib.ads		g-os_lib.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.alignment%s	gtk-alignment.adb	gtk-alignment.ali  AD
+W gtk.box%s		gtk-box.adb		gtk-box.ali  AD
+W gtk.button%s		gtk-button.adb		gtk-button.ali  AD
+W gtk.enums%s		gtk-enums.adb		gtk-enums.ali
+W gtk.grid%s		gtk-grid.adb		gtk-grid.ali
+W gtk.widget%s		gtk-widget.adb		gtk-widget.ali
+Z gtk.window%s		gtk-window.adb		gtk-window.ali  AD
+Z gtkada.style%s	gtkada-style.adb	gtkada-style.ali  AD
+W pango%s		pango.ads		pango.ali
+W pango.font%s		pango-font.adb		pango-font.ali
+W pango.layout%s	pango-layout.adb	pango-layout.ali
+Z pkg_buffergenerico%s	pkg_buffergenerico.adb	pkg_buffergenerico.ali  ED
+W pkg_debug%s		pkg_debug.adb		pkg_debug.ali  AD
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.img_uns%s	s-imguns.ads		s-imguns.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U pkg_graficos%s	pkg_graficos.ads	45a8befb EE OO PF PK KU
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W cairo%s		cairo.adb		cairo.ali
+W gdk%s			gdk.ads			gdk.ali
+W gdk.cairo%s		gdk-cairo.adb		gdk-cairo.ali
+W gdk.rgba%s		gdk-rgba.adb		gdk-rgba.ali
+W gdk.types%s		gdk-types.ads		gdk-types.ali
+W glib%s		glib.adb		glib.ali
+W glib.main%s		glib-main.adb		glib-main.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.drawing_area%s	gtk-drawing_area.adb	gtk-drawing_area.ali
+W gtk.handlers%s	gtk-handlers.adb	gtk-handlers.ali  EA
+W gtk.main%s		gtk-main.adb		gtk-main.ali  EA
+W gtk.window%s		gtk-window.adb		gtk-window.ali
+W gtkada%s		gtkada.ads		gtkada.ali
+W gtkada.style%s	gtkada-style.adb	gtkada-style.ali
+W pango%s		pango.ads		pango.ali
+W pango.font%s		pango-font.adb		pango-font.ali
+W pango.layout%s	pango-layout.adb	pango-layout.ali
+W pkg_buffergenerico%s	pkg_buffergenerico.adb	pkg_buffergenerico.ali
+W pkg_tipos%s		pkg_tipos.ads		pkg_tipos.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-assert.ads		20210520051127 a718b65c ada.assertions%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051127 bf4f806b ada.finalization%s
+D a-flteio.ads		20210520051127 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051129 fcca4daa ada.text_io.float_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210520051129 c3a8ac65 ada.unchecked_deallocation%s
+D cairo.ads		20210519053508 925d4aaa cairo%s
+D cairo-region.ads	20210519053508 b7133728 cairo.region%s
+D double_buffer.ads	20220914060536 fb4ed6fc double_buffer%s
+D gdk.ads		20210519053508 96d821f3 gdk%s
+D gdk-cairo.ads		20210519053508 750fb209 gdk.cairo%s
+D gdk-color.ads		20210519053508 ef57bc34 gdk.color%s
+D gdk-device.ads	20210519053508 04c1ecbd gdk.device%s
+D gdk-display.ads	20210519053508 d91ec37e gdk.display%s
+D gdk-drag_contexts.ads	20210519053508 11b1346e gdk.drag_contexts%s
+D gdk-event.ads		20210519053508 1bda38e2 gdk.event%s
+D gdk-frame_clock.ads	20210519053508 dadfbe52 gdk.frame_clock%s
+D gdk-frame_timings.ads	20210519053508 98b5e7d1 gdk.frame_timings%s
+D gdk-pixbuf.ads	20210519053508 499fe1c7 gdk.pixbuf%s
+D gdk-rectangle.ads	20210519053508 7b900608 gdk.rectangle%s
+D gdk-rgba.ads		20210519053508 2609514a gdk.rgba%s
+D gdk-screen.ads	20210519053508 9fe578a4 gdk.screen%s
+D gdk-types.ads		20210519053508 921dc8b2 gdk.types%s
+D gdk-visual.ads	20210519053508 615e934c gdk.visual%s
+D gdk-window.ads	20210519053508 aa508024 gdk.window%s
+D glib.ads		20210519053508 7d107887 glib%s
+D glib-error.ads	20210519053508 e055fabe glib.error%s
+D glib-g_icon.ads	20210519053508 099367ad glib.g_icon%s
+D glib-generic_properties.ads  20210519053508 f3dc70df glib.generic_properties%s
+D glib-glist.ads	20210519053508 65a6e1be glib.glist%s
+D glib-gslist.ads	20210519053508 953541be glib.gslist%s
+D glib-main.ads		20210519053508 aec03ed0 glib.main%s
+D glib-main.adb		20210519053508 57fde77b glib.main%b
+D glib-object.ads	20210519053508 fb5efa0e glib.object%s
+D glib-poll.ads		20210519053508 e1a8ea35 glib.poll%s
+D glib-properties.ads	20210519053508 4118b916 glib.properties%s
+D glib-spawn.ads	20210519053508 68be6b4c glib.spawn%s
+D glib-string.ads	20210519053508 deea1b42 glib.string%s
+D glib-types.ads	20210519053508 86ac71ae glib.types%s
+D glib-values.ads	20210519053508 5ef3ad24 glib.values%s
+D glib-variant.ads	20210519053508 aee5d7d3 glib.variant%s
+D gnat.ads		20210520051131 b5988c27 gnat%s
+D g-os_lib.ads		20210520051130 0db74523 gnat.os_lib%s
+D g-string.ads		20210520051130 c6abc540 gnat.strings%s
+D gtk.ads		20210519053508 cfdeaf1c gtk%s
+D gtk-accel_group.ads	20210519053508 a14a159a gtk.accel_group%s
+D gtk-action.ads	20210519053508 98120d78 gtk.action%s
+D gtk-actionable.ads	20210519053508 35cd241d gtk.actionable%s
+D gtk-activatable.ads	20210519053508 873be5b9 gtk.activatable%s
+D gtk-adjustment.ads	20210519053508 bbcb1fda gtk.adjustment%s
+D gtk-alignment.ads	20210519053508 ec60e561 gtk.alignment%s
+D gtk-bin.ads		20210519053508 4e8a2236 gtk.bin%s
+D gtk-box.ads		20210519053508 28f6f090 gtk.box%s
+D gtk-buildable.ads	20210519053508 e8198b57 gtk.buildable%s
+D gtk-builder.ads	20210519053508 35d802c2 gtk.builder%s
+D gtk-button.ads	20210519053508 bc9a559f gtk.button%s
+D gtk-cell_area.ads	20210519053508 309571a8 gtk.cell_area%s
+D gtk-cell_area_context.ads  20210519053508 5d63dcf9 gtk.cell_area_context%s
+D gtk-cell_editable.ads	20210519053508 a955a31f gtk.cell_editable%s
+D gtk-cell_layout.ads	20210519053508 ceee6a6f gtk.cell_layout%s
+D gtk-cell_renderer.ads	20210519053508 8a8076e8 gtk.cell_renderer%s
+D gtk-container.ads	20210519053508 dc3d0898 gtk.container%s
+D gtk-drawing_area.ads	20210519053508 6fdc9064 gtk.drawing_area%s
+D gtk-enums.ads		20210519053508 e3f2f3ba gtk.enums%s
+D gtk-grid.ads		20210519053508 b314585d gtk.grid%s
+D gtk-handlers.ads	20210519053508 313b6eab gtk.handlers%s
+D gtk-handlers.adb	20210519053508 bd3515fb gtk.handlers%b
+D gtk-main.ads		20210519053508 e684a528 gtk.main%s
+D gtk-marshallers.ads	20210519053508 6c3cad4d gtk.marshallers%s
+D gtk-marshallers.adb	20210519053508 3763b331 gtk.marshallers%b
+D gtk-orientable.ads	20210519053508 673b3a02 gtk.orientable%s
+D gtk-selection_data.ads  20210519053508 061b2148 gtk.selection_data%s
+D gtk-style.ads		20210519053508 3c4cbc07 gtk.style%s
+D gtk-style_provider.ads  20210519053508 e396c135 gtk.style_provider%s
+D gtk-target_entry.ads	20210519053508 02690213 gtk.target_entry%s
+D gtk-target_list.ads	20210519053508 a9d79eb7 gtk.target_list%s
+D gtk-tree_model.ads	20210519053508 e664b639 gtk.tree_model%s
+D gtk-tree_view_column.ads  20210519053508 54737275 gtk.tree_view_column%s
+D gtk-widget.ads	20210519053508 07bd7883 gtk.widget%s
+D gtk-window.ads	20210519053508 e91a448d gtk.window%s
+D gtkada.ads		20210519053508 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20210519053508 fc9825de gtkada.bindings%s
+D gtkada-c.ads		20210519053508 0f5973e3 gtkada.c%s
+D gtkada-style.ads	20210519053508 026aa25d gtkada.style%s
+D gtkada-types.ads	20210519053508 471f54b5 gtkada.types%s
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-c.ads		20210520051131 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051131 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D pango.ads		20210519053508 e51ea573 pango%s
+D pango-attributes.ads	20210519053508 b2832a43 pango.attributes%s
+D pango-context.ads	20210519053508 5a6f0fe6 pango.context%s
+D pango-enums.ads	20210519053508 eff085ce pango.enums%s
+D pango-font.ads	20210519053508 71042db5 pango.font%s
+D pango-font_face.ads	20210519053508 c62e6ce5 pango.font_face%s
+D pango-font_family.ads	20210519053508 1fdea8b4 pango.font_family%s
+D pango-font_metrics.ads  20210519053508 25e6f301 pango.font_metrics%s
+D pango-fontset.ads	20210519053508 af4fe708 pango.fontset%s
+D pango-language.ads	20210519053508 e96cb8f4 pango.language%s
+D pango-layout.ads	20210519053508 d240b716 pango.layout%s
+D pango-matrix.ads	20210519053508 309f74b5 pango.matrix%s
+D pango-tabs.ads	20210519053508 0c575925 pango.tabs%s
+D pkg_buffergenerico.ads  20220907080950 a4246473 pkg_buffergenerico%s
+D pkg_buffergenerico.adb  20220907080950 36088ec8 pkg_buffergenerico%b
+D pkg_debug.ads		20220907080950 edd8aa0d pkg_debug%s
+D pkg_graficos.ads	20220915090743 ab33b572 pkg_graficos%s
+D pkg_graficos.adb	20220915090743 8bc33f37 pkg_graficos%b
+D pkg_tipos.ads		20220914060536 3a7e6f62 pkg_tipos%s
+D system.ads		20210520051134 a2da961d system%s
+D s-assert.ads		20210520051131 6a49a4e4 system.assertions%s
+D s-conca2.ads		20210520051131 02a0d7d0 system.concat_2%s
+D s-conca4.ads		20210520051131 7e642b20 system.concat_4%s
+D s-conca5.ads		20210520051131 875e432e system.concat_5%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-finmas.ads		20210520051131 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210520051131 4ff27390 system.finalization_root%s
+D s-imagei.ads		20210520051132 0d3f86a7 system.image_i%s
+D s-imageu.ads		20210520051132 525c30c6 system.image_u%s
+D s-imgint.ads		20210520051132 bdb6f5ec system.img_int%s
+D s-imguns.ads		20210520051132 0e4da2ac system.img_uns%s
+D s-memory.ads		20210520051132 597d6634 system.memory%s
+D s-os_lib.ads		20210520051132 93b69309 system.os_lib%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-pooglo.ads		20210520051133 ede33ef8 system.pool_global%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stalib.adb		20210520051133 977290bf system.standard_library%b
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210520051133 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20210520051133 7bdda3fa system.stream_attributes%s
+D s-string.ads		20210520051133 8fe54fb7 system.strings%s
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20210520051134 214516a4 unchecked_deallocation%s
+G a e
+G c b b b [b pkg_graficos 23 1 none]
+G c s s s [s pkg_graficos 24 1 none]
+G c Z s b [simular_sistema pkg_graficos 32 14 none]
+G c Z s b [aparece pkg_graficos 35 14 none]
+G c Z s b [aparece_en_pista pkg_graficos 36 14 none]
+G c Z s b [desaparece pkg_graficos 39 14 none]
+G c Z s b [desaparece_en_pista pkg_graficos 40 14 none]
+G c Z s b [pos_inicio pkg_graficos 43 13 none]
+G c Z s b [pos_inicio pkg_graficos 45 13 none]
+G c Z s b [actualiza_movimiento pkg_graficos 49 14 none]
+G c Z s b [actualiza_movimiento_en_pista pkg_graficos 50 14 none]
+G c Z s b [fin_aterrizaje pkg_graficos 53 13 none]
+G c Z s b [actualiza_cronometro pkg_graficos 56 14 none]
+G c Z s s [to_marshaller pkg_graficos__void_cb__marshallers__void_marshaller 461 19 828_7_122_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__marshallers__void_marshaller 463 20 828_7_122_7]
+G c Z s s [call pkg_graficos__void_cb__marshallers__void_marshaller 468 20 828_7_122_7]
+G c Z s s [to_handler pkg_graficos__void_cb__marshallers__void_marshaller 769 19 828_7_122_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__marshallers__void_marshaller 771 19 828_7_122_7]
+G c Z s s [marshallerIP pkg_graficos__void_cb__marshallers 344 12 828_7_122_7]
+G c Z s s [connect pkg_graficos__void_cb 833 17 122_7]
+G c Z s s [object_connect pkg_graficos__void_cb 838 17 122_7]
+G c Z s s [connect pkg_graficos__void_cb 845 17 122_7]
+G c Z s s [object_connect pkg_graficos__void_cb 850 17 122_7]
+G c Z s s [connect pkg_graficos__void_cb 857 17 122_7]
+G c Z s s [object_connect pkg_graficos__void_cb 862 17 122_7]
+G c Z s s [connect pkg_graficos__void_cb 872 16 122_7]
+G c Z s s [object_connect pkg_graficos__void_cb 878 16 122_7]
+G c Z s s [connect pkg_graficos__void_cb 885 16 122_7]
+G c Z s s [object_connect pkg_graficos__void_cb 891 16 122_7]
+G c Z s s [to_marshaller pkg_graficos__void_cb__gint_marshaller 360 19 900_7_122_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__gint_marshaller 362 20 900_7_122_7]
+G c Z s s [call pkg_graficos__void_cb__gint_marshaller 378 20 900_7_122_7]
+G c Z s s [to_handler pkg_graficos__void_cb__gint_marshaller 515 19 900_7_122_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__gint_marshaller 517 19 900_7_122_7]
+G c Z s s [to_marshaller pkg_graficos__void_cb__guint_marshaller 360 19 902_7_122_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__guint_marshaller 362 20 902_7_122_7]
+G c Z s s [call pkg_graficos__void_cb__guint_marshaller 378 20 902_7_122_7]
+G c Z s s [to_handler pkg_graficos__void_cb__guint_marshaller 515 19 902_7_122_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__guint_marshaller 517 19 902_7_122_7]
+G c Z s s [to_marshaller pkg_graficos__void_cb__event_marshaller 360 19 904_7_122_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__event_marshaller 362 20 904_7_122_7]
+G c Z s s [call pkg_graficos__void_cb__event_marshaller 378 20 904_7_122_7]
+G c Z s s [to_handler pkg_graficos__void_cb__event_marshaller 515 19 904_7_122_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__event_marshaller 517 19 904_7_122_7]
+G c Z s s [to_marshaller pkg_graficos__void_cb__widget_marshaller 440 19 906_7_122_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__widget_marshaller 442 20 906_7_122_7]
+G c Z s s [call pkg_graficos__void_cb__widget_marshaller 448 20 906_7_122_7]
+G c Z s s [to_handler pkg_graficos__void_cb__widget_marshaller 700 19 906_7_122_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__widget_marshaller 702 19 906_7_122_7]
+G c Z s s [to_marshaller pkg_graficos__void_cb__tree_path_marshaller 360 19 908_7_122_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__tree_path_marshaller 362 20 908_7_122_7]
+G c Z s s [call pkg_graficos__void_cb__tree_path_marshaller 378 20 908_7_122_7]
+G c Z s s [to_handler pkg_graficos__void_cb__tree_path_marshaller 515 19 908_7_122_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__tree_path_marshaller 517 19 908_7_122_7]
+G c Z s s [to_marshaller pkg_graficos__void_cb__tree_iter_tree_path_marshaller 400 19 910_7_122_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__tree_iter_tree_path_marshaller 402 20 910_7_122_7]
+G c Z s s [call pkg_graficos__void_cb__tree_iter_tree_path_marshaller 423 20 910_7_122_7]
+G c Z s s [to_handler pkg_graficos__void_cb__tree_iter_tree_path_marshaller 600 19 910_7_122_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__tree_iter_tree_path_marshaller 602 19 910_7_122_7]
+G c Z s s [to_marshaller pkg_graficos__void_cb__tree_path_tree_iter_marshaller 400 19 914_7_122_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__tree_path_tree_iter_marshaller 402 20 914_7_122_7]
+G c Z s s [call pkg_graficos__void_cb__tree_path_tree_iter_marshaller 423 20 914_7_122_7]
+G c Z s s [to_handler pkg_graficos__void_cb__tree_path_tree_iter_marshaller 600 19 914_7_122_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__tree_path_tree_iter_marshaller 602 19 914_7_122_7]
+G c Z s s [to_marshaller pkg_graficos__void_cb__tree_path_tree_column_marshaller 400 19 918_7_122_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb__tree_path_tree_column_marshaller 402 20 918_7_122_7]
+G c Z s s [call pkg_graficos__void_cb__tree_path_tree_column_marshaller 423 20 918_7_122_7]
+G c Z s s [to_handler pkg_graficos__void_cb__tree_path_tree_column_marshaller 600 19 918_7_122_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb__tree_path_tree_column_marshaller 602 19 918_7_122_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb 976 17 122_7]
+G c Z s s [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40121 992 17 122_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb 992 17 122_7]
+G c Z s s [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40236 996 17 122_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb 996 17 122_7]
+G c Z s s [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40403 1001 17 122_7]
+G c Z s s [emit_by_name pkg_graficos__void_cb 1001 17 122_7]
+G c Z s s [convert pkg_graficos__void_cb 1022 16 122_7]
+G c Z s s [convert pkg_graficos__void_cb 1024 16 122_7]
+G c Z s s [free_data pkg_graficos__void_cb 1027 17 122_7]
+G c Z s s [first_marshaller pkg_graficos__void_cb 1031 17 122_7]
+G c Z s s [data_type_recordIP pkg_graficos__void_cb 1013 12 122_7]
+G c Z s s [to_handler pkg_graficos__void_cb 867 16 122_7]
+G c Z s s [to_general_handler pkg_graficos__void_cb 869 16 122_7]
+G c Z s s [to_address pkg_graficos__void_cb 871 16 122_7]
+G c Z s s [to_address pkg_graficos__void_cb 873 16 122_7]
+G c Z s s [idle_add pkg_graficos__main_context_sources 406 16 123_7]
+G c Z s s [timeout_add pkg_graficos__main_context_sources 414 16 123_7]
+G c Z s s [set_callback pkg_graficos__main_context_sources 422 17 123_7]
+G c Z s s [free_data pkg_graficos__main_context_sources 437 17 123_7]
+G c Z s s [general_cb pkg_graficos__main_context_sources 440 16 123_7]
+G c Z s s [convert pkg_graficos__main_context_sources 116 16 123_7]
+G c Z s s [convert pkg_graficos__main_context_sources 119 16 123_7]
+G c Z s s [cb_recordIP pkg_graficos__main_context_sources 109 12 123_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__marshallers__void_marshaller 461 19 828_7_125_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__marshallers__void_marshaller 463 20 828_7_125_7]
+G c Z s s [call pkg_graficos__destroyed__marshallers__void_marshaller 468 20 828_7_125_7]
+G c Z s s [to_handler pkg_graficos__destroyed__marshallers__void_marshaller 769 19 828_7_125_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__marshallers__void_marshaller 771 19 828_7_125_7]
+G c Z s s [marshallerIP pkg_graficos__destroyed__marshallers 344 12 828_7_125_7]
+G c Z s s [connect pkg_graficos__destroyed 833 17 125_7]
+G c Z s s [object_connect pkg_graficos__destroyed 838 17 125_7]
+G c Z s s [connect pkg_graficos__destroyed 845 17 125_7]
+G c Z s s [object_connect pkg_graficos__destroyed 850 17 125_7]
+G c Z s s [connect pkg_graficos__destroyed 857 17 125_7]
+G c Z s s [object_connect pkg_graficos__destroyed 862 17 125_7]
+G c Z s s [connect pkg_graficos__destroyed 872 16 125_7]
+G c Z s s [object_connect pkg_graficos__destroyed 878 16 125_7]
+G c Z s s [connect pkg_graficos__destroyed 885 16 125_7]
+G c Z s s [object_connect pkg_graficos__destroyed 891 16 125_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__gint_marshaller 360 19 900_7_125_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__gint_marshaller 362 20 900_7_125_7]
+G c Z s s [call pkg_graficos__destroyed__gint_marshaller 378 20 900_7_125_7]
+G c Z s s [to_handler pkg_graficos__destroyed__gint_marshaller 515 19 900_7_125_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__gint_marshaller 517 19 900_7_125_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__guint_marshaller 360 19 902_7_125_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__guint_marshaller 362 20 902_7_125_7]
+G c Z s s [call pkg_graficos__destroyed__guint_marshaller 378 20 902_7_125_7]
+G c Z s s [to_handler pkg_graficos__destroyed__guint_marshaller 515 19 902_7_125_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__guint_marshaller 517 19 902_7_125_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__event_marshaller 360 19 904_7_125_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__event_marshaller 362 20 904_7_125_7]
+G c Z s s [call pkg_graficos__destroyed__event_marshaller 378 20 904_7_125_7]
+G c Z s s [to_handler pkg_graficos__destroyed__event_marshaller 515 19 904_7_125_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__event_marshaller 517 19 904_7_125_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__widget_marshaller 440 19 906_7_125_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__widget_marshaller 442 20 906_7_125_7]
+G c Z s s [call pkg_graficos__destroyed__widget_marshaller 448 20 906_7_125_7]
+G c Z s s [to_handler pkg_graficos__destroyed__widget_marshaller 700 19 906_7_125_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__widget_marshaller 702 19 906_7_125_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__tree_path_marshaller 360 19 908_7_125_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__tree_path_marshaller 362 20 908_7_125_7]
+G c Z s s [call pkg_graficos__destroyed__tree_path_marshaller 378 20 908_7_125_7]
+G c Z s s [to_handler pkg_graficos__destroyed__tree_path_marshaller 515 19 908_7_125_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__tree_path_marshaller 517 19 908_7_125_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__tree_iter_tree_path_marshaller 400 19 910_7_125_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__tree_iter_tree_path_marshaller 402 20 910_7_125_7]
+G c Z s s [call pkg_graficos__destroyed__tree_iter_tree_path_marshaller 423 20 910_7_125_7]
+G c Z s s [to_handler pkg_graficos__destroyed__tree_iter_tree_path_marshaller 600 19 910_7_125_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__tree_iter_tree_path_marshaller 602 19 910_7_125_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__tree_path_tree_iter_marshaller 400 19 914_7_125_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__tree_path_tree_iter_marshaller 402 20 914_7_125_7]
+G c Z s s [call pkg_graficos__destroyed__tree_path_tree_iter_marshaller 423 20 914_7_125_7]
+G c Z s s [to_handler pkg_graficos__destroyed__tree_path_tree_iter_marshaller 600 19 914_7_125_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__tree_path_tree_iter_marshaller 602 19 914_7_125_7]
+G c Z s s [to_marshaller pkg_graficos__destroyed__tree_path_tree_column_marshaller 400 19 918_7_125_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed__tree_path_tree_column_marshaller 402 20 918_7_125_7]
+G c Z s s [call pkg_graficos__destroyed__tree_path_tree_column_marshaller 423 20 918_7_125_7]
+G c Z s s [to_handler pkg_graficos__destroyed__tree_path_tree_column_marshaller 600 19 918_7_125_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed__tree_path_tree_column_marshaller 602 19 918_7_125_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed 976 17 125_7]
+G c Z s s [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40121 992 17 125_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed 992 17 125_7]
+G c Z s s [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40236 996 17 125_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed 996 17 125_7]
+G c Z s s [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40403 1001 17 125_7]
+G c Z s s [emit_by_name pkg_graficos__destroyed 1001 17 125_7]
+G c Z s s [convert pkg_graficos__destroyed 1022 16 125_7]
+G c Z s s [convert pkg_graficos__destroyed 1024 16 125_7]
+G c Z s s [free_data pkg_graficos__destroyed 1027 17 125_7]
+G c Z s s [first_marshaller pkg_graficos__destroyed 1031 17 125_7]
+G c Z s s [data_type_recordIP pkg_graficos__destroyed 1013 12 125_7]
+G c Z s s [to_handler pkg_graficos__destroyed 867 16 125_7]
+G c Z s s [to_general_handler pkg_graficos__destroyed 869 16 125_7]
+G c Z s s [to_address pkg_graficos__destroyed 871 16 125_7]
+G c Z s s [to_address pkg_graficos__destroyed 873 16 125_7]
+G c Z s b [draw_complex pkg_graficos 127 17 none]
+G c Z s b [draw_complex_buffer pkg_graficos 129 16 none]
+G c Z s b [quit pkg_graficos 131 17 none]
+G c Z s s [insertar_ultimo_item pkg_graficos__pkg_buffer_aviones 11 14 135_7]
+G c Z s s [extraer_primer_item pkg_graficos__pkg_buffer_aviones 12 14 135_7]
+G c Z s s [actualiza_item pkg_graficos__pkg_buffer_aviones 13 14 135_7]
+G c Z s s [posicion_primer_item pkg_graficos__pkg_buffer_aviones 14 13 135_7]
+G c Z s s [posicion_ultimo_item pkg_graficos__pkg_buffer_aviones 15 13 135_7]
+G c Z s s [consulta_item pkg_graficos__pkg_buffer_aviones 16 13 135_7]
+G c Z s s [vacio pkg_graficos__pkg_buffer_aviones 17 13 135_7]
+G c Z s s [lleno pkg_graficos__pkg_buffer_aviones 18 13 135_7]
+G c Z s s [extraer_posicion_item pkg_graficos__pkg_buffer_aviones 21 14 135_7]
+G c Z s s [borrar_item pkg_graficos__pkg_buffer_aviones 23 14 135_7]
+G c Z s s [insertar_item pkg_graficos__pkg_buffer_aviones 24 14 135_7]
+G c Z s s [Tt_vectorBIP pkg_graficos__pkg_buffer_aviones 28 7 135_7]
+G c Z s s [t_bufferIP pkg_graficos__pkg_buffer_aviones 30 12 135_7]
+G c Z s s [Tbuffer_avionesBIP pkg_graficos 136 7 none]
+G c Z s s [insertar_ultimo_item pkg_graficos__pkg_buffer_aviones_en_pista 11 14 138_7]
+G c Z s s [extraer_primer_item pkg_graficos__pkg_buffer_aviones_en_pista 12 14 138_7]
+G c Z s s [actualiza_item pkg_graficos__pkg_buffer_aviones_en_pista 13 14 138_7]
+G c Z s s [posicion_primer_item pkg_graficos__pkg_buffer_aviones_en_pista 14 13 138_7]
+G c Z s s [posicion_ultimo_item pkg_graficos__pkg_buffer_aviones_en_pista 15 13 138_7]
+G c Z s s [consulta_item pkg_graficos__pkg_buffer_aviones_en_pista 16 13 138_7]
+G c Z s s [vacio pkg_graficos__pkg_buffer_aviones_en_pista 17 13 138_7]
+G c Z s s [lleno pkg_graficos__pkg_buffer_aviones_en_pista 18 13 138_7]
+G c Z s s [extraer_posicion_item pkg_graficos__pkg_buffer_aviones_en_pista 21 14 138_7]
+G c Z s s [borrar_item pkg_graficos__pkg_buffer_aviones_en_pista 23 14 138_7]
+G c Z s s [insertar_item pkg_graficos__pkg_buffer_aviones_en_pista 24 14 138_7]
+G c Z s s [Tt_vectorBIP pkg_graficos__pkg_buffer_aviones_en_pista 28 7 138_7]
+G c Z s s [t_bufferIP pkg_graficos__pkg_buffer_aviones_en_pista 30 12 138_7]
+G c Z s b [inicializar_interfaz_grafica pkg_graficos 142 17 none]
+G c Z s b [inicializar_buffer_aviones pkg_graficos 145 17 none]
+G c Z s b [posicion_buffer pkg_graficos 148 16 none]
+G c Z s b [posicion_buffer pkg_graficos 151 16 none]
+G c Z s b [detectar_avion_mas_cercano pkg_graficos 157 17 none]
+G c Z s b [nueva_posicionx pkg_graficos 162 16 none]
+G c Z s b [nueva_posiciony pkg_graficos 166 16 none]
+G c Z s b [dibujar_canvas pkg_graficos 171 17 none]
+G c Z s b [dibujar_pistas_aterrizaje pkg_graficos 174 17 none]
+G c Z s b [convertir_color_gc pkg_graficos 178 16 none]
+G c Z s b [dibujar_lineas pkg_graficos 181 17 none]
+G c Z s b [dibujar_rueda pkg_graficos 184 17 none]
+G c Z s b [dibujar_avion pkg_graficos 189 17 none]
+G c Z s b [dibujar_tren_aterrizaje pkg_graficos 192 17 none]
+G c Z s b [dibujar_canvas_cronometro pkg_graficos 195 17 none]
+G r c none [b pkg_graficos 23 1 none] [escribir pkg_debug 18 14 none]
+G r c none [b pkg_graficos 23 1 none] [init gtk__main 62 14 none]
+G r c none [b pkg_graficos 23 1 none] [gtk_new gtk__window 83 14 none]
+G r c none [b pkg_graficos 23 1 none] [set_title gtk__window 787 14 none]
+G r c none [b pkg_graficos 23 1 none] [set_default_size gtk__window 322 14 none]
+G r s handler_id [b pkg_graficos 23 1 none] [handler_idIP gtk__handlers 189 9 none]
+G r c none [b pkg_graficos 23 1 none] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [b pkg_graficos 23 1 none] [gtk_new gtk__button 119 14 none]
+G r c none [b pkg_graficos 23 1 none] [get_object glib__object 135 13 none]
+G r c none [b pkg_graficos 23 1 none] [set_size_request gtk__widget 1927 14 none]
+G r c none [b pkg_graficos 23 1 none] [gtk_new gtk__alignment 63 14 none]
+G r c none [b pkg_graficos 23 1 none] [add gtk__container 216 14 none]
+G r c none [b pkg_graficos 23 1 none] [gtk_new double_buffer 12 14 none]
+G r c none [b pkg_graficos 23 1 none] [gtk_new_hbox gtk__box 129 14 none]
+G r c none [b pkg_graficos 23 1 none] [gtk_new_vbox gtk__box 155 14 none]
+G r c none [b pkg_graficos 23 1 none] [pack_start gtk__box 264 14 none]
+G r c none [b pkg_graficos 23 1 none] [show_all gtk__widget 2970 14 none]
+G r c none [b pkg_graficos 23 1 none] [get_pango_context gtk__widget 1638 13 none]
+G r c none [b pkg_graficos 23 1 none] [gdk_new pango__layout 107 14 none]
+G r c none [b pkg_graficos 23 1 none] [from_string pango__font 394 13 none]
+G r c none [b pkg_graficos 23 1 none] [set_font_description pango__layout 294 14 none]
+G r i none [s pkg_graficos 24 1 none] [callback gtk__handlers 820 12 none]
+G r i none [s pkg_graficos 24 1 none] [generic_sources glib__main 395 12 none]
+G r i none [s pkg_graficos 24 1 none] [pkg_buffergenerico standard 9 9 none]
+G r c none [s pkg_graficos 24 1 none] [to_cairo gtkada__style 90 13 none]
+G r i none [s pkg_graficos 24 1 none] [void_marshallers gtk__marshallers 337 12 none]
+G r c none [simular_sistema pkg_graficos 32 14 none] [main gtk__main 197 14 none]
+G r c none [desaparece pkg_graficos 39 14 none] [escribir pkg_debug 18 14 none]
+G r c none [desaparece_en_pista pkg_graficos 40 14 none] [escribir pkg_debug 18 14 none]
+G r c none [actualiza_movimiento pkg_graficos 49 14 none] [escribir pkg_debug 18 14 none]
+G r c none [actualiza_movimiento_en_pista pkg_graficos 50 14 none] [escribir pkg_debug 18 14 none]
+G r c none [emit_by_name pkg_graficos__void_cb__marshallers__void_marshaller 463 20 828_7_122_7] [get_object glib__object 135 13 none]
+G r s handler_id [connect pkg_graficos__void_cb 833 17 122_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect pkg_graficos__void_cb 833 17 122_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect pkg_graficos__void_cb 838 17 122_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect pkg_graficos__void_cb 838 17 122_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__void_cb 838 17 122_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [connect pkg_graficos__void_cb 845 17 122_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect pkg_graficos__void_cb 845 17 122_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect pkg_graficos__void_cb 850 17 122_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect pkg_graficos__void_cb 850 17 122_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__void_cb 850 17 122_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [connect pkg_graficos__void_cb 857 17 122_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect pkg_graficos__void_cb 857 17 122_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect pkg_graficos__void_cb 862 17 122_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect pkg_graficos__void_cb 862 17 122_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__void_cb 862 17 122_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [connect pkg_graficos__void_cb 872 16 122_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [object_connect pkg_graficos__void_cb 878 16 122_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__void_cb 878 16 122_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [connect pkg_graficos__void_cb 885 16 122_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [object_connect pkg_graficos__void_cb 891 16 122_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__void_cb 891 16 122_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [emit_by_name pkg_graficos__void_cb__gint_marshaller 362 20 900_7_122_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__void_cb__gint_marshaller 378 20 900_7_122_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__void_cb__gint_marshaller 378 20 900_7_122_7] [get_int glib__values 141 14 none]
+G r c none [emit_by_name pkg_graficos__void_cb__guint_marshaller 362 20 902_7_122_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__void_cb__guint_marshaller 378 20 902_7_122_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__void_cb__guint_marshaller 378 20 902_7_122_7] [get_uint glib__values 147 14 none]
+G r c none [emit_by_name pkg_graficos__void_cb__event_marshaller 362 20 904_7_122_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__void_cb__event_marshaller 378 20 904_7_122_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__void_cb__event_marshaller 378 20 904_7_122_7] [get_event gdk__event 1039 13 none]
+G r c none [emit_by_name pkg_graficos__void_cb__widget_marshaller 442 20 906_7_122_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__void_cb__widget_marshaller 448 20 906_7_122_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__void_cb__widget_marshaller 448 20 906_7_122_7] [get_address glib__values 172 14 none]
+G r c none [call pkg_graficos__void_cb__widget_marshaller 448 20 906_7_122_7] [convert gtk__widget 432 13 none]
+G r s gtk_widget_record [call pkg_graficos__void_cb__widget_marshaller 448 20 906_7_122_7] [gtk_widget_recordIP gtk__widget 343 9 none]
+G r c none [emit_by_name pkg_graficos__void_cb__tree_path_marshaller 362 20 908_7_122_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__void_cb__tree_path_marshaller 378 20 908_7_122_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__void_cb__tree_path_marshaller 378 20 908_7_122_7] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [emit_by_name pkg_graficos__void_cb__tree_iter_tree_path_marshaller 402 20 910_7_122_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__void_cb__tree_iter_tree_path_marshaller 423 20 910_7_122_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__void_cb__tree_iter_tree_path_marshaller 423 20 910_7_122_7] [get_tree_iter gtk__tree_model 788 13 none]
+G r c none [call pkg_graficos__void_cb__tree_iter_tree_path_marshaller 423 20 910_7_122_7] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [emit_by_name pkg_graficos__void_cb__tree_path_tree_iter_marshaller 402 20 914_7_122_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__void_cb__tree_path_tree_iter_marshaller 423 20 914_7_122_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__void_cb__tree_path_tree_iter_marshaller 423 20 914_7_122_7] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [call pkg_graficos__void_cb__tree_path_tree_iter_marshaller 423 20 914_7_122_7] [get_tree_iter gtk__tree_model 788 13 none]
+G r c none [emit_by_name pkg_graficos__void_cb__tree_path_tree_column_marshaller 402 20 918_7_122_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__void_cb__tree_path_tree_column_marshaller 423 20 918_7_122_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__void_cb__tree_path_tree_column_marshaller 423 20 918_7_122_7] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [call pkg_graficos__void_cb__tree_path_tree_column_marshaller 423 20 918_7_122_7] [get_tree_view_column gtk__handlers 199 13 none]
+G r c none [emit_by_name pkg_graficos__void_cb 976 17 122_7] [get_object glib__object 135 13 none]
+G r c none [emit_by_name pkg_graficos__void_cb 976 17 122_7] [to_address gdk__event 1036 13 none]
+G r c none [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40121 992 17 122_7] [get_object glib__object 135 13 none]
+G r c none [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40121 992 17 122_7] [to_address gtk__handlers 196 13 none]
+G r c none [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40236 996 17 122_7] [get_object glib__object 135 13 none]
+G r c none [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40236 996 17 122_7] [to_address gtk__tree_model 791 13 none]
+G r c none [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40236 996 17 122_7] [to_address gtk__handlers 196 13 none]
+G r c none [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40403 1001 17 122_7] [get_object glib__object 135 13 none]
+G r c none [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40403 1001 17 122_7] [to_address gtk__handlers 196 13 none]
+G r c none [emit_by_nameR pkg_graficos__void_cb__emit_by_nameGP40403 1001 17 122_7] [to_address gtk__tree_model 791 13 none]
+G r c none [first_marshaller pkg_graficos__void_cb 1031 17 122_7] [get_data gtkada__bindings 174 13 none]
+G r s gtk_window_record [first_marshaller pkg_graficos__void_cb 1031 17 122_7] [gtk_window_recordIP gtk__window 73 9 none]
+G r c none [first_marshaller pkg_graficos__void_cb 1031 17 122_7] [make_values glib__values 63 13 none]
+G r c none [first_marshaller pkg_graficos__void_cb 1031 17 122_7] [nth glib__values 70 13 none]
+G r c none [first_marshaller pkg_graficos__void_cb 1031 17 122_7] [get_address glib__values 172 14 none]
+G r c none [first_marshaller pkg_graficos__void_cb 1031 17 122_7] [get_user_data glib__object 147 13 none]
+G r c none [first_marshaller pkg_graficos__void_cb 1031 17 122_7] [process_exception gtkada__bindings 220 14 none]
+G r c none [general_cb pkg_graficos__main_context_sources 440 16 123_7] [process_exception gtkada__bindings 220 14 none]
+G r c none [emit_by_name pkg_graficos__destroyed__marshallers__void_marshaller 463 20 828_7_125_7] [get_object glib__object 135 13 none]
+G r s handler_id [connect pkg_graficos__destroyed 833 17 125_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect pkg_graficos__destroyed 833 17 125_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect pkg_graficos__destroyed 838 17 125_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect pkg_graficos__destroyed 838 17 125_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__destroyed 838 17 125_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [connect pkg_graficos__destroyed 845 17 125_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect pkg_graficos__destroyed 845 17 125_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect pkg_graficos__destroyed 850 17 125_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect pkg_graficos__destroyed 850 17 125_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__destroyed 850 17 125_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [connect pkg_graficos__destroyed 857 17 125_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [connect pkg_graficos__destroyed 857 17 125_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r s handler_id [object_connect pkg_graficos__destroyed 862 17 125_7] [handler_idIP gtk__handlers 189 9 none]
+G r c none [object_connect pkg_graficos__destroyed 862 17 125_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__destroyed 862 17 125_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [connect pkg_graficos__destroyed 872 16 125_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [object_connect pkg_graficos__destroyed 878 16 125_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__destroyed 878 16 125_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [connect pkg_graficos__destroyed 885 16 125_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [object_connect pkg_graficos__destroyed 891 16 125_7] [get_object glib__object 135 13 none]
+G r c none [object_connect pkg_graficos__destroyed 891 16 125_7] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [emit_by_name pkg_graficos__destroyed__gint_marshaller 362 20 900_7_125_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__destroyed__gint_marshaller 378 20 900_7_125_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__destroyed__gint_marshaller 378 20 900_7_125_7] [get_int glib__values 141 14 none]
+G r c none [emit_by_name pkg_graficos__destroyed__guint_marshaller 362 20 902_7_125_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__destroyed__guint_marshaller 378 20 902_7_125_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__destroyed__guint_marshaller 378 20 902_7_125_7] [get_uint glib__values 147 14 none]
+G r c none [emit_by_name pkg_graficos__destroyed__event_marshaller 362 20 904_7_125_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__destroyed__event_marshaller 378 20 904_7_125_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__destroyed__event_marshaller 378 20 904_7_125_7] [get_event gdk__event 1039 13 none]
+G r c none [emit_by_name pkg_graficos__destroyed__widget_marshaller 442 20 906_7_125_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__destroyed__widget_marshaller 448 20 906_7_125_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__destroyed__widget_marshaller 448 20 906_7_125_7] [get_address glib__values 172 14 none]
+G r c none [call pkg_graficos__destroyed__widget_marshaller 448 20 906_7_125_7] [convert gtk__widget 432 13 none]
+G r s gtk_widget_record [call pkg_graficos__destroyed__widget_marshaller 448 20 906_7_125_7] [gtk_widget_recordIP gtk__widget 343 9 none]
+G r c none [emit_by_name pkg_graficos__destroyed__tree_path_marshaller 362 20 908_7_125_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__destroyed__tree_path_marshaller 378 20 908_7_125_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__destroyed__tree_path_marshaller 378 20 908_7_125_7] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [emit_by_name pkg_graficos__destroyed__tree_iter_tree_path_marshaller 402 20 910_7_125_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__destroyed__tree_iter_tree_path_marshaller 423 20 910_7_125_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__destroyed__tree_iter_tree_path_marshaller 423 20 910_7_125_7] [get_tree_iter gtk__tree_model 788 13 none]
+G r c none [call pkg_graficos__destroyed__tree_iter_tree_path_marshaller 423 20 910_7_125_7] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [emit_by_name pkg_graficos__destroyed__tree_path_tree_iter_marshaller 402 20 914_7_125_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__destroyed__tree_path_tree_iter_marshaller 423 20 914_7_125_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__destroyed__tree_path_tree_iter_marshaller 423 20 914_7_125_7] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [call pkg_graficos__destroyed__tree_path_tree_iter_marshaller 423 20 914_7_125_7] [get_tree_iter gtk__tree_model 788 13 none]
+G r c none [emit_by_name pkg_graficos__destroyed__tree_path_tree_column_marshaller 402 20 918_7_125_7] [get_object glib__object 135 13 none]
+G r c none [call pkg_graficos__destroyed__tree_path_tree_column_marshaller 423 20 918_7_125_7] [nth glib__values 70 13 none]
+G r c none [call pkg_graficos__destroyed__tree_path_tree_column_marshaller 423 20 918_7_125_7] [get_tree_path gtk__tree_model 801 13 none]
+G r c none [call pkg_graficos__destroyed__tree_path_tree_column_marshaller 423 20 918_7_125_7] [get_tree_view_column gtk__handlers 199 13 none]
+G r c none [emit_by_name pkg_graficos__destroyed 976 17 125_7] [get_object glib__object 135 13 none]
+G r c none [emit_by_name pkg_graficos__destroyed 976 17 125_7] [to_address gdk__event 1036 13 none]
+G r c none [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40121 992 17 125_7] [get_object glib__object 135 13 none]
+G r c none [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40121 992 17 125_7] [to_address gtk__handlers 196 13 none]
+G r c none [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40236 996 17 125_7] [get_object glib__object 135 13 none]
+G r c none [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40236 996 17 125_7] [to_address gtk__tree_model 791 13 none]
+G r c none [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40236 996 17 125_7] [to_address gtk__handlers 196 13 none]
+G r c none [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40403 1001 17 125_7] [get_object glib__object 135 13 none]
+G r c none [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40403 1001 17 125_7] [to_address gtk__handlers 196 13 none]
+G r c none [emit_by_nameR pkg_graficos__destroyed__emit_by_nameGP40403 1001 17 125_7] [to_address gtk__tree_model 791 13 none]
+G r c none [first_marshaller pkg_graficos__destroyed 1031 17 125_7] [get_data gtkada__bindings 174 13 none]
+G r s gtk_window_record [first_marshaller pkg_graficos__destroyed 1031 17 125_7] [gtk_window_recordIP gtk__window 73 9 none]
+G r c none [first_marshaller pkg_graficos__destroyed 1031 17 125_7] [make_values glib__values 63 13 none]
+G r c none [first_marshaller pkg_graficos__destroyed 1031 17 125_7] [nth glib__values 70 13 none]
+G r c none [first_marshaller pkg_graficos__destroyed 1031 17 125_7] [get_address glib__values 172 14 none]
+G r c none [first_marshaller pkg_graficos__destroyed 1031 17 125_7] [get_user_data glib__object 147 13 none]
+G r c none [first_marshaller pkg_graficos__destroyed 1031 17 125_7] [process_exception gtkada__bindings 220 14 none]
+G r c none [draw_complex pkg_graficos 127 17 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [draw_complex pkg_graficos 127 17 none] [set_text pango__layout 506 14 none]
+G r c none [draw_complex pkg_graficos 127 17 none] [draw_layout gtkada__style 203 14 none]
+G r c none [draw_complex pkg_graficos 127 17 none] [draw_line gtkada__style 190 14 none]
+G r c none [draw_complex pkg_graficos 127 17 none] [set_line_width cairo 843 14 none]
+G r c none [draw_complex pkg_graficos 127 17 none] [move_to cairo 1108 14 none]
+G r c none [draw_complex pkg_graficos 127 17 none] [line_to cairo 1132 14 none]
+G r c none [draw_complex pkg_graficos 127 17 none] [close_path cairo 1327 14 none]
+G r c none [draw_complex pkg_graficos 127 17 none] [set_source_rgb cairo 686 14 none]
+G r c none [draw_complex pkg_graficos 127 17 none] [fill cairo 1469 14 none]
+G r c none [draw_complex_buffer pkg_graficos 129 16 none] [get_pixmap double_buffer 19 13 none]
+G r c none [draw_complex_buffer pkg_graficos 129 16 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [draw_complex_buffer pkg_graficos 129 16 none] [set_text pango__layout 506 14 none]
+G r c none [draw_complex_buffer pkg_graficos 129 16 none] [draw_layout gtkada__style 203 14 none]
+G r c none [draw_complex_buffer pkg_graficos 129 16 none] [draw_line gtkada__style 190 14 none]
+G r c none [draw_complex_buffer pkg_graficos 129 16 none] [set_line_width cairo 843 14 none]
+G r c none [draw_complex_buffer pkg_graficos 129 16 none] [move_to cairo 1108 14 none]
+G r c none [draw_complex_buffer pkg_graficos 129 16 none] [line_to cairo 1132 14 none]
+G r c none [draw_complex_buffer pkg_graficos 129 16 none] [close_path cairo 1327 14 none]
+G r c none [draw_complex_buffer pkg_graficos 129 16 none] [set_source_rgb cairo 686 14 none]
+G r c none [draw_complex_buffer pkg_graficos 129 16 none] [fill cairo 1469 14 none]
+G r c none [draw_complex_buffer pkg_graficos 129 16 none] [thaw double_buffer 17 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [gtk_new gtk__window 83 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [set_title gtk__window 787 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [set_default_size gtk__window 322 14 none]
+G r s handler_id [inicializar_interfaz_grafica pkg_graficos 142 17 none] [handler_idIP gtk__handlers 189 9 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [do_signal_connect gtk__handlers 1498 13 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [gtk_new gtk__button 119 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [get_object glib__object 135 13 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [set_size_request gtk__widget 1927 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [gtk_new gtk__alignment 63 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [add gtk__container 216 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [gtk_new double_buffer 12 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [gtk_new_hbox gtk__box 129 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [gtk_new_vbox gtk__box 155 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [pack_start gtk__box 264 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [show_all gtk__widget 2970 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [get_pango_context gtk__widget 1638 13 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [gdk_new pango__layout 107 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [from_string pango__font 394 13 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [set_font_description pango__layout 294 14 none]
+G r c none [inicializar_interfaz_grafica pkg_graficos 142 17 none] [escribir pkg_debug 18 14 none]
+G r c none [inicializar_buffer_aviones pkg_graficos 145 17 none] [escribir pkg_debug 18 14 none]
+G r c none [posicion_buffer pkg_graficos 148 16 none] [escribir pkg_debug 18 14 none]
+G r c none [posicion_buffer pkg_graficos 151 16 none] [escribir pkg_debug 18 14 none]
+G r c none [detectar_avion_mas_cercano pkg_graficos 157 17 none] [escribir pkg_debug 18 14 none]
+G r c none [dibujar_canvas pkg_graficos 171 17 none] [set_text pango__layout 506 14 none]
+G r c none [dibujar_canvas pkg_graficos 171 17 none] [draw_layout gtkada__style 203 14 none]
+G r c none [dibujar_canvas pkg_graficos 171 17 none] [draw_line gtkada__style 190 14 none]
+G r c none [dibujar_canvas pkg_graficos 171 17 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [dibujar_canvas pkg_graficos 171 17 none] [set_line_width cairo 843 14 none]
+G r c none [dibujar_canvas pkg_graficos 171 17 none] [move_to cairo 1108 14 none]
+G r c none [dibujar_canvas pkg_graficos 171 17 none] [line_to cairo 1132 14 none]
+G r c none [dibujar_canvas pkg_graficos 171 17 none] [close_path cairo 1327 14 none]
+G r c none [dibujar_canvas pkg_graficos 171 17 none] [set_source_rgb cairo 686 14 none]
+G r c none [dibujar_canvas pkg_graficos 171 17 none] [fill cairo 1469 14 none]
+G r c none [dibujar_pistas_aterrizaje pkg_graficos 174 17 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [dibujar_pistas_aterrizaje pkg_graficos 174 17 none] [set_line_width cairo 843 14 none]
+G r c none [dibujar_pistas_aterrizaje pkg_graficos 174 17 none] [draw_line gtkada__style 190 14 none]
+G r c none [dibujar_pistas_aterrizaje pkg_graficos 174 17 none] [set_text pango__layout 506 14 none]
+G r c none [dibujar_pistas_aterrizaje pkg_graficos 174 17 none] [draw_layout gtkada__style 203 14 none]
+G r c none [dibujar_lineas pkg_graficos 181 17 none] [draw_line gtkada__style 190 14 none]
+G r c none [dibujar_rueda pkg_graficos 184 17 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [dibujar_avion pkg_graficos 189 17 none] [move_to cairo 1108 14 none]
+G r c none [dibujar_avion pkg_graficos 189 17 none] [line_to cairo 1132 14 none]
+G r c none [dibujar_avion pkg_graficos 189 17 none] [close_path cairo 1327 14 none]
+G r c none [dibujar_avion pkg_graficos 189 17 none] [set_source_rgb cairo 686 14 none]
+G r c none [dibujar_avion pkg_graficos 189 17 none] [fill cairo 1469 14 none]
+G r c none [dibujar_avion pkg_graficos 189 17 none] [set_text pango__layout 506 14 none]
+G r c none [dibujar_avion pkg_graficos 189 17 none] [draw_layout gtkada__style 203 14 none]
+G r c none [dibujar_avion pkg_graficos 189 17 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [dibujar_tren_aterrizaje pkg_graficos 192 17 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [dibujar_canvas_cronometro pkg_graficos 195 17 none] [draw_rectangle gtkada__style 170 14 none]
+G r c none [dibujar_canvas_cronometro pkg_graficos 195 17 none] [set_text pango__layout 506 14 none]
+G r c none [dibujar_canvas_cronometro pkg_graficos 195 17 none] [draw_layout gtkada__style 203 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 116|11r6 15r6 15r26 329r7
+X 3 a-except.ads
+44K13*Exceptions 289e19 116|15w10 15r30
+48P9*Exception_Id<140|84P9>
+60V13*Exception_Name{string} 116|167s70 189s63 210s72 241s60 254s69 371s70
+92V13*Exception_Identity{48P9} 116|167s85 189s78 210s87 241s75 254s84 371s85
+X 5 a-flteio.ads
+20K13*Float_Text_IO[13|46] 116|11w10 329r11
+X 11 a-tags.ads
+652V13 CW_Membership{boolean} 116|123s37
+X 13 a-tiflio.ads
+100U14*Put 116|329s25[5|20]
+X 16 cairo.ads
+75K9*Cairo 2893e10 115|9w6 9r29 116|494r7 503r7 515r7 522r7 555r7 557r7 560r7
+. 563r7 565r7 568r7 571r7 573r7 576r7 579r7 581r7 584r7 586r7 589r7 592r7
+. 593r7 594r7 595r7
+77M9*Cairo_Context<118|67M9> 115|127r40 171r41 174r52 181r41 184r39 189r39
+. 192r49 195r52 116|105r37 415r38 482r48 537r36 610r46 649r38 660r36 676r49
+686U14*Set_Source_Rgb 116|594s13
+843U14*Set_Line_Width 116|494s13 503s13 515s13 522s13
+1108U14*Move_To 116|555s13
+1132U14*Line_To 116|557s13 560s13 563s13 565s13 568s13 571s13 573s13 576s13
+. 579s13 581s13 584s13 586s13 589s13 592s13
+1327U14*Close_Path 116|593s13
+1469U14*Fill 116|595s13
+X 18 double_buffer.ads
+6K9*Double_Buffer 43e18 116|5w6 5r29 68r7 128r7
+10P9*Gtk_Double_Buffer(8R9) 116|40r20 123r16 123r37
+12U14*Gtk_New 116|68s21
+17U14*Thaw 116|128R21
+19V13*Get_Pixmap{16|77M9} 116|126R21
+X 19 gdk.ads
+38K9*Gdk 48e8 115|7r6 7r29 8r6 20r6 95r29 96r29 97r29 99r29 100r29 102r30
+. 103r28 104r28 106r34 107r30 116|6r6 6r29 16r6 17r6 17r22 18w6 18r15
+43P9*Gdk_Window<35|153P9>
+46P9*Gdk_Visual<35|153P9>
+X 20 gdk-cairo.ads
+37K13*Cairo 85e14 115|8w10
+X 21 gdk-color.ads
+44K13*Color 196e14 116|6w10 6r33
+X 22 gdk-device.ads
+49P9*Gdk_Device(48R9)
+59V13*Convert{118|67M9} 39|58i21
+60V13*Convert{49P9} 39|59i21
+X 28 gdk-pixbuf.ads
+51K13*Pixbuf 624e15 116|16w10
+X 30 gdk-rgba.ads
+35K13*RGBA 145e13 115|20w10 95r33 96r33 97r33 99r33 100r33 102r34 103r32
+. 104r32 106r38 107r34
+37R9*Gdk_RGBA 42e14 115|95r38 96r38 97r38 99r38 100r38 102r39 103r37 104r37
+. 106r43 107r39
+38f7*Red{35|59F9} 116|594r42
+39f7*Green{35|59F9} 116|594r53
+40f7*Blue{35|59F9} 116|594r66
+X 32 gdk-types.ads
+31K13*Types 297e14 115|7w10 7r33
+37i7*X{35|49I9} 116|652r45 652r73
+38i7*Y{35|49I9} 116|652r58 652r88
+42A9*Gdk_Points_Array(36R9)<integer> 115|181r99 116|649r96
+X 33 gdk-visual.ads
+78V13*Convert[150|20]{118|67M9} 39|58i21
+79V13*Convert[150|20]{19|46P9} 39|59i21
+X 34 gdk-window.ads
+45K13*Window 2193e15 116|17w10 17r26
+280V13*Convert{118|67M9} 39|58i21
+281V13*Convert{19|43P9} 39|59i21
+X 35 glib.ads
+38K9*Glib 429e9 115|17r6 17r29 21w6 21r29 67r23 69r54 123r43 116|45r34
+49I9*Gint<96|35I9> 115|185r74 185r83 186r50 186r73 116|45r39 431r43 432r41
+. 432r69 434r38 434r90 497r41 497r78 498r41 498r78 499r41 499r78 500r41 500r78
+. 517r38 517r66 518r38 518r66 519r38 519r66 520r38 520r66 526r35 526r74 528r37
+. 528r76 538r11 539r11 540r13 542r25 547r29 550r29 553r12 554r12 599r54 601r57
+. 615r51 615r74 616r51 616r74 618r51 618r73 619r51 619r74 661r71 661r80 662r47
+. 662r70 680r28 680r54 685r37 685r57
+55M9*Guint<96|44M9> 115|69r59
+59F9*Gdouble<96|72F9> 116|555r29 555r41 557r29 557r41 560r29 560r41 563r29
+. 563r41 565r29 565r41 568r29 568r41 571r29 571r41 573r29 573r41 576r29 576r41
+. 579r29 579r41 581r29 581r41 584r29 584r41 586r29 586r41 589r29 589r41 592r29
+. 592r41 666r42 669r42
+79A12*UTF8_String{string}<integer> 115|67r28
+153P9*C_Proxy(150R9)
+X 41 glib-main.ads
+86K14*Main 523e14 115|17w11 17r34 123r48
+153M9*G_Source_Id<35|55M9> 116|42r20
+395k12*Generic_Sources 442e23 115|123r53
+414V16*Timeout_Add{153M9} 116|86s34[115|123]
+X 43 glib-object.ads
+41P9*GObject(40R9)
+675V13*Convert{118|67M9} 39|58i21 40|49i21
+676V13*Convert{41P9} 39|59i21 40|50i21
+X 51 gnat.ads
+34K9*GNAT 57e9 116|21r6 141r7
+X 52 g-os_lib.ads
+51K14*OS_Lib=51:36 116|21w11 141r12
+X 54 gtk.ads
+41K9*Gtk 79e8 115|12r6 12r29 13r6 13r29 14r6 14r29 16r6 16r29 122r30 125r32
+. 116|7r6 7r29 8r6 8r29 9r6 9r29 10r6 10r29 19r6 20r6 31r7 46r23 49r7 63r7
+. 699r4
+X 60 gtk-alignment.ads
+54K13*Alignment 235e18 116|20w10 46r27 63r11
+57P9*Gtk_Alignment(56R9) 116|46r37
+63U14*Gtk_New 116|63s21
+X 62 gtk-box.ads
+87K13*Box 402e12 116|8w10 8r33
+90P9*Gtk_Box(89R9) 116|41r20
+129U14*Gtk_New_Hbox 116|73s7
+131b8 Homogeneous{boolean} 116|73r27
+132i8 Spacing{35|49I9} 116|73r49
+155U14*Gtk_New_Vbox 116|74s7
+157b8 Homogeneous{boolean} 116|74r27
+158i8 Spacing{35|49I9} 116|74r49
+264U14*Pack_Start 116|76R7 77R7 79R7
+X 65 gtk-button.ads
+53K13*Button 595e15 116|9w10 9r33
+56P9*Gtk_Button(55R9) 116|43r20
+119U14*Gtk_New 116|56s7
+X 70 gtk-cell_renderer.ads
+83P9*Gtk_Cell_Renderer(82R9)
+104V13*Convert{118|67M9} 39|58i21
+105V13*Convert{83P9} 39|59i21
+X 71 gtk-container.ads
+216U14*Add 116|64R21 82R11
+X 72 gtk-drawing_area.ads
+101K13*Drawing_Area 141e21 115|13w10 13r33
+104P9*Gtk_Drawing_Area(103R9) 115|123r69 129r44 116|88r47 122r41
+X 73 gtk-enums.ads
+30K13*Enums 878e14 116|7w10 7r33
+608n7*Window_Toplevel{607E9} 116|49r32
+865V13*Convert{118|67M9} 39|58i21 40|49i21
+866V13*Convert{string} 39|59i21 40|50i21
+X 74 gtk-grid.ads
+54K13*Grid 326e13 116|19w10
+X 75 gtk-handlers.ads
+181K13*Handlers 1531e17 115|14w10 14r33 15r27 122r34 125r36
+819R12 Widget_Type<43|40R9> 115|125r55
+820k12*Callback 1044e16 115|122r43 125r45
+833U17*Connect 116|52s15[115|122]
+838U17*Object_Connect 116|57s17[115|125]
+842p10 Slot_Object(89|73R9) 116|60r33[115|125]
+939V16*To_Marshaller=942:46{78|344R12[828[115|122]]} 116|52s48[115|122] 59s43[115|125]
+X 77 gtk-main.ads
+33K13*Main 327e13 115|16w10 16r33 18r27 116|31r11 699r8
+62U14*Init 116|699s13
+197U14*Main 116|31s16
+X 78 gtk-marshallers.ads
+344R12*Marshaller
+X 86 gtk-tree_model.ads
+808V13*Convert{118|67M9} 39|58i21
+809V13*Convert{221R9} 39|59i21
+X 87 gtk-tree_view_column.ads
+55P9*Gtk_Tree_View_Column(54R9)
+66V13*Convert{118|67M9} 39|58i21
+67V13*Convert{55P9} 39|59i21
+X 88 gtk-widget.ads
+341K13*Widget 5431e15 116|10w10 10r33
+344P9*Gtk_Widget(343R9)
+431V13*Convert{118|67M9} 39|58i21 40|49i21
+432V13*Convert{344P9} 39|59i21 40|50i21
+1638V13*Get_Pango_Context{101|44P9} 116|91R28
+1927U14*Set_Size_Request 116|62R14 69R14
+2970U14*Show_All 116|84R7
+X 89 gtk-window.ads
+71K13*Window 1676e15 115|12w10 12r33 116|49r11
+73R9*Gtk_Window_Record<61|45R9> 73e65 115|122r53 125r70 131r36 116|138r33
+74P9*Gtk_Window(73R9) 116|39r20
+83U14*Gtk_New 116|49s18
+322U14*Set_Default_Size 116|51R11
+787U14*Set_Title 116|50R7
+X 90 gtkada.ads
+30K9*Gtkada 34e11 115|11r6 11r29 109r30 109r58 110r30 110r58 111r30 111r58
+. 112r30 112r58 113r30 113r58 114r30 114r58 115r30 115r58 116r30 116r58 117r32
+. 117r60 118r32 118r60 178r59 181r64 184r71 185r45 116|541r14 629r56 649r61
+. 660r68 661r42
+X 93 gtkada-style.ads
+46K16*Style 591e17 115|11w13 11r36 109r37 109r65 110r37 110r65 111r37 111r65
+. 112r37 112r65 113r37 113r65 114r37 114r65 115r37 115r65 116r37 116r65 117r39
+. 117r67 118r39 118r67 178r66 181r71 184r78 185r52 116|541r21 629r63 649r68
+. 660r75 661r49
+55R12*Cairo_Color{30|37R9} 115|109r43 110r43 111r43 112r43 113r43 114r43
+. 115r43 116r43 117r45 118r45 178r72 181r77 184r84 185r58 116|541r27 629r69
+. 649r74 660r81 661r55
+90V13*To_Cairo{30|37R9} 115|109s71 110s71 111s71 112s71 113s71 114s71 115s71
+. 116s71 117s73 118s73
+170U14*Draw_Rectangle 116|108s7 485s7 489s7 506s7 510s7 664s10 667s10 679s7
+173b7 Filled{boolean} 116|108r46 485r40 489r40 506r41 510r41 664r50 667r47
+. 679r41
+174i7 X{35|49I9} 116|109r23 486r23 490r23 507r23 511r23 665r16 668r16 680r23
+174i10 Y{35|49I9} 116|109r37 486r50 490r50 507r50 511r50 665r24 668r26 680r49
+174i13 Width{35|49I9} 116|110r23 487r23 491r23 508r23 512r23 665r32 668r36
+. 681r23
+174i20 Height{35|49I9} 116|110r46 487r45 491r45 508r45 512r45 665r61 668r62
+. 681r36
+175f7 Corner_Radius{35|59F9} 116|666r25 669r25
+190U14*Draw_Line 116|432s10 434s7 497s13 499s13 517s10 519s10 652s10
+203U14*Draw_Layout 116|428s7 431s10 526s7 528s7 599s7 601s7 685s7
+X 96 i-c.ads
+35I9*int<integer>
+44M9*unsigned
+72F9*double<long_float>
+X 99 pango.ads
+35K9*Pango 45e10 115|10r6 10r29 19r6 19r30 116|12r6 12r24 13r6 44r22 92r23
+. 93r7
+X 101 pango-context.ads
+44P9*Pango_Context(43R9)
+X 103 pango-font.ads
+46K15*Font 409e15 115|10w12 10r35 116|13w12 44r28 92r29
+49P9*Pango_Font(48R9) 115|92r22
+51P9*Pango_Font_Description<35|153P9> 116|44r33
+394V13*From_String{51P9} 116|92s34
+X 109 pango-layout.ads
+59K15*Layout 812e17 115|19w12 19r36 116|12w12 12r30 93r13
+62P9*Pango_Layout(61R9) 115|120r20
+107U14*Gdk_New 116|91s7
+294U14*Set_Font_Description 116|93R20
+506U14*Set_Text 116|427R7 430R10 525R7 527R7 598R7 600R7 684R7
+X 112 pkg_buffergenerico.ads
+6+9 Tipo_Dato 115|135r60 138r69
+7M9 tam 115|135r86 138r95
+9k9*PKG_bufferGenerico 38e23 115|6w6 135r41 138r50
+10R9*T_Buffer 115|136r70[135] 139r61[138] 149r59[135] 152r65[138] 116|176r56[115|135]
+. 197r65[115|138]
+11U14*Insertar_Ultimo_Item 116|221s26[115|135] 226s35[115|138]
+13U14*Actualiza_Item 116|161s32[115|135] 289s26[115|135] 309s35[115|138]
+14V13*Posicion_Primer_Item{117|61M9} 116|181s37[115|135] 202s46[115|138]
+. 352s37[115|135] 443s52[115|135] 460s67[115|138]
+15V13*Posicion_Ultimo_Item{117|61M9} 116|352s110[115|135] 444s52[115|135]
+. 461s67[115|138]
+16V13*Consulta_Item{117|107R9} 116|182s43[115|135] 185s46[115|135] 203s52[115|138]
+. 206s55[115|138] 354s42[115|135] 447s49[115|135] 464s55[115|138]
+17V13*Vacio{boolean} 116|442s36[115|135] 459s42[115|138]
+23U14*Borrar_Item 116|238s26[115|135] 251s35[115|138]
+X 114 pkg_debug.ads
+8K9*PKG_debug 38e14 116|14w6 167r9 189r13 210r13 241r9 254r9 294r10 371r9
+. 695r4 703r4
+18U14*Escribir 116|167s19 189s23 210s23 241s19 254s19 294s20 371s19 695s14
+. 703s14
+X 115 pkg_graficos.ads
+24K9*PKG_graficos 63E7 198l5 198e17 116|23b14 704l5 704t17
+32U14*Simular_Sistema 116|29b14 32l8 32t23
+35U14*Aparece 35>22 116|219b14 222l8 222t15
+35r22 avion{117|107R9} 116|219b22 221r47 221r69
+36U14*Aparece_En_Pista 36>31 116|224b14 227l8 227t24
+36r31 avion{117|107R9} 116|224b31 226r56
+39U14*Desaparece 39>25 116|233b14 243l8 243t18
+39r25 avion{117|107R9} 116|233b25 237r30 237r40 237r79 238r58
+40U14*Desaparece_En_Pista 40>34 116|246b14 256l8 256t27
+40r34 avion{117|107R9} 116|246b34 250r30 250r40
+43V13*Pos_Inicio{117|77R9} 43>24 116|261b13 268l8 268t18
+43i24 aereovia{117|96I9} 116|261b24 263r10 264r55 266r38
+45V13*Pos_Inicio{117|77R9} 45>24 116|271b13 274l8 274t18
+45e24 pista{117|27E9} 116|271b24 273r48
+49U14*Actualiza_Movimiento 49=35 116|280b14 299l8 299t28
+49r35 avion{117|107R9} 116|280b35 285m7 285r38 285r51 288r30 288r40 288r79
+. 289r46 289r68 291r34 293r11 293r43 294r66 294r107
+50U14*Actualiza_Movimiento_En_Pista 50=44 116|302b14 311l8 311t37
+50r44 avion{117|107R9} 116|302b44 305m7 305r38 305r51 308r30 308r40 309r55
+53V13*Fin_Aterrizaje{boolean} 53>28 116|318b13 321l8 321t22
+53i28 pos_y{117|75I12} 116|318b28 320r14
+56U14*Actualiza_Cronometro 56>35 116|327b14 330l8 330t28
+56o35 tiempo_transcurrido{duration} 116|327b35 329r50
+63N7 X_CRONOMETRO 116|680r33 685r42
+64N7 Y_CRONOMETRO 116|680r59 685r62
+66N7 TAM_CRONOMETRO 67r43
+67a7 hora_segundos{35|79A12} 116|329m29 684r29
+69m7 PERIODICIDAD_REDIBUJAR_MILISEGUNDOS{35|55M9} 116|86r47
+71N7 X_INICIO_PISTA1 88r54 116|486r32 497r46 498r46 507r32 517r43 518r43
+. 526r40
+72N7 X_INICIO_PISTA2 88r71 116|490r32 499r46 500r46 511r32 519r43 520r43
+. 528r42
+73N7 ANCHO_PISTA 116|487r32 491r32 497r62 498r62 499r62 500r62 508r32 512r32
+. 526r56 528r58
+74N7 LONGITUD_PISTA 116|487r55 491r55 495r20 508r55 512r55 517r88 518r88
+. 519r88 520r88 526r94 528r96
+77N7 Y_AEREOVIA1 78r33 85r60
+78N7 Y_AEREOVIA2 79r33 85r73
+79N7 Y_AEREOVIA3 80r33 85r86
+80N7 Y_AEREOVIA4 81r33 85r99
+81N7 Y_AEREOVIA5 82r33 85r112
+82N7 Y_AEREOVIA6 85r125
+85a7 y_aereovia(integer) 116|157r28 264r44 266r27 431r48
+88a7 x_pista(integer) 116|273r18
+92p7 fuente_letra{103|49P9}
+95r7 White_RGBA{30|37R9} 109r80
+96r7 Black_RGBA{30|37R9} 110r80
+97r7 Grey_RGBA{30|37R9} 111r80
+99r7 Green_RGBA{30|37R9} 112r80
+100r7 Red_RGBA{30|37R9} 113r80
+102r7 Yellow_RGBA{30|37R9} 114r80
+103r7 Blue_RGBA{30|37R9} 115r80
+104r7 Cyan_RGBA{30|37R9} 116r80
+106r7 Gris_Fondo_RGBA{30|37R9} 117r82
+107r7 Orange_RGBA{30|37R9} 118r82
+109r7 White_Gc{93|55R12} 116|497r31 499r31 506r31 510r31 517r28 519r28 599r27
+. 637r32 679r31
+110r7 Black_Gc{93|55R12} 116|428r27 431r30 432r28 434r25 601r27 615r32 616r32
+. 618r32 619r32 636r32 685r27
+111r7 Grey_Gc{93|55R12} 116|485r31 489r31 615r42 616r42 618r42 619r42 638r32
+112r7 Green_Gc{93|55R12} 116|528r27 633r32
+113r7 Red_Gc{93|55R12} 116|526r27 632r32
+114r7 Yellow_Gc{93|55R12} 116|635r32
+115r7 Blue_Gc{93|55R12} 116|634r32
+116r7 Cyan_Gc{93|55R12} 116|639r32
+117r7 Gris_Fondo_Gc{93|55R12} 116|108r31
+118r7 Orange_Gc{93|55R12} 116|640r34
+120p7 PangoLayout{109|62P9} 116|91m15 91r15 93r41 427r16 428r60 430r19 431r64
+. 525r16 526r114 527r16 528r116 598r16 599r76 600r16 601r79 684r16 685r80
+122K15 Void_Cb[75|820] 116|52r7 52r40
+123K15 Main_Context_Sources[41|395] 116|86r13
+125K15 Destroyed[75|820] 116|57r7 59r33
+127U17 Draw_Complex 127>31 116|105b14 116l8 116t20 126s7
+127m31 Pixmap{16|77M9} 116|105b28 108r23 114r22
+129V16 Draw_Complex_Buffer{boolean} 129>37 116|87r47 122b13 131l8 131t27
+129p37 Area{72|104P9} 116|122b34 123r56
+131U17 Quit 131^23 116|52r63 59r58 138b14 144l8 144t12
+131p23 Win(89|73R9) 116|138b20 139r29
+135K15 Pkg_Buffer_aviones[112|9] 136r51 149r40 116|161r13 176r37 181r18 182r24
+. 185r27 221r7 238r7 289r7 352r18 352r91 354r23 442r17 443r33 444r33 447r30
+136a7 buffer_aviones(112|10R9[135]) 116|161m57 161r57 221m54 221r54 237r64
+. 238m43 238r43 288r64 289m53 289r53 352r58 352r131 354r83 442r42 443r73
+. 444r73 447r74
+138K15 Pkg_Buffer_aviones_en_pista[112|9] 139r33 152r37 116|197r37 202r18
+. 203r24 206r27 226r7 251r7 309r7 459r14 460r39 461r39 464r27
+139r7 buffer_aviones_en_pista{112|10R9[138]} 116|226m63 226r63 250r64 251m52
+. 251r52 308r64 309m62 309r62 459r48 460r88 461r88 464r89
+142U17 Inicializar_Interfaz_Grafica 116|38b14 99l8 99t36 700s4
+145U17 Inicializar_Buffer_Aviones 116|97s7 150b14 169l8 169t34
+148V16 Posicion_Buffer{117|61M9} 148>32 148>48 149>32 116|175b13 193l8 193t23
+. 237s14 288s14
+148m32 Id{117|99M9} 116|175b29 183r33
+148i48 aereovia_inicial{117|96I9} 116|175b45 183r69
+149r32 buffer{112|10R9[135]} 116|176b29 181r58 182r62 185r65
+151V16 Posicion_Buffer{117|62M9} 151>32 151>48 152>29 116|196b13 214l8 214t23
+. 250s14 308s14
+151m32 Id{117|99M9} 116|196b29 204r33
+151i48 aereovia_inicial{117|96I9} 116|196b45 204r69
+152r29 Buffer{112|10R9[138]} 116|197b29 202r67 203r71 206r74
+157U17 Detectar_Avion_Mas_Cercano 157>44 157<70 158<44 116|291s7 343b14 373l8
+. 373t34
+157r44 avion{117|107R9} 116|343b41 349r24 352r73 352r146 354r98 356r13 356r41
+. 357r45
+157r70 avion_cercano{117|107R9} 116|343b67 349m7 361m16
+158i44 distancia{integer} 116|344b29 350m7 362m16
+162V16 Nueva_PosicionX{117|74I12} 162>32 162>62 116|285s22 380b13 391l8 391t23
+162i32 pos_actual_x{117|74I12} 116|380b29 383r22
+162i62 vel_x{117|12I9} 116|380b59 383r45
+166V16 Nueva_PosicionY{117|75I12} 166>32 166>62 116|305s22 398b13 407l8 407t23
+166i32 pos_actual_y{117|75I12} 116|398b29 401r22
+166i62 vel_y{117|12I9} 116|398b59 401r45
+171U17 Dibujar_Canvas 171>32 116|114s7 415b14 476l8 476t22
+171m32 Pixmap{16|77M9} 116|415b29 428r19 431r22 432r20 434r17 437r33 449r30
+. 466r27 474r33
+174U17 Dibujar_Pistas_Aterrizaje 174>43 116|437s7 482b14 531l8 531t33
+174m43 Pixmap{16|77M9} 116|482b40 485r23 489r23 494r28 497r23 499r23 503r28
+. 506r23 510r23 515r28 517r20 519r20 522r28 526r19 528r19
+178V16 Convertir_Color_GC{93|55R12} 178>35 116|544s16 629b13 642l8 642t26
+178e35 Color{117|24E9} 116|629b32 631r12
+181U17 Dibujar_Lineas 181>32 181>56 181>90 181>117 116|649b14 654l8 654t22
+181m32 Pixmap{16|77M9} 116|649b29 652r20
+181r56 color{93|55R12} 116|649b53 652r28
+181a90 flecha{32|42A9} 116|649b87 652r35 652r48 652r61 652r76
+181i117 n_puntos{integer} 116|649b114 651r19
+184U17 Dibujar_Rueda 184>31 184>54 185>31 185>71 185>80 186>31 186>56 116|615s10
+. 616s10 618s10 619s10 660b14 670l8 670t21
+184m31 Pixmap{16|77M9} 116|660b28 664r25 667r25
+184r54 color_neumatico{93|55R12} 116|660b51 664r33
+185r31 color_llanta{93|55R12} 116|661b28 667r33
+185i71 x{35|49I9} 116|661b68 665r21 668r21
+185i80 y{35|49I9} 116|661b77 665r29 668r31
+186i31 diametro_neumatico{35|49I9} 116|662b28 665r41 665r71 666r50
+186i56 diametro_llanta{35|49I9} 116|662b53 668r45 668r72 669r50
+189U17 Dibujar_Avion 189>31 189>54 116|449s16 466s13 537b14 607l9 607t22
+189m31 Pixmap{16|77M9} 116|537b28 555r21 557r21 560r21 563r21 565r21 568r21
+. 571r21 573r21 576r21 579r21 581r21 584r21 586r21 589r21 592r21 593r24 594r28
+. 595r18 599r19 601r19 604r34
+189r54 avion{117|107R9} 116|537b51 544r35 545r10 547r34 550r34 553r17 554r17
+. 598r45 599r59 600r51 601r62 603r10 604r42
+192U17 Dibujar_Tren_Aterrizaje 192>41 192>64 116|604s10 610b14 622l8 622t31
+192m41 Pixmap{16|77M9} 116|610b38 615r24 616r24 618r24 619r24
+192r64 avion{117|107R9} 116|610b61 614r10 615r56 615r79 616r56 616r79 618r56
+. 618r78 619r56 619r79
+195U17 Dibujar_Canvas_Cronometro 195>43 116|474s7 676b14 686l8 686t33
+195m43 Pixmap{16|77M9} 116|676b40 679r23 685r19
+X 116 pkg_graficos.adb
+39p7 Win{89|74P9} 49m27 49r27 50r18 51r7 52r24 60r48 82r7 84r17
+40p7 Buffer{18|10P9} 68m29 68r29 69r7 76r25 88r65 91r46
+41p7 Vbox{62|90P9} 74m21 74r21 76r19 77r19 79r25
+41p13 Hbox{62|90P9} 73m21 73r21 79r19 82r15
+42m7 Id{41|153M9} 86m7
+43p7 Button{65|56P9} 56m16 56r16 57r33 62r7 64r25
+44p7 inbuilt_font{103|51P9} 92m7 93r54
+45i7 TAM_BUTTON_EXIT{35|49I9} 62r36
+46p7 alinea_button{60|57P9} 63m29 63r29 64r7 77r25
+123p7 Buffer{18|10P9} 126r33 128r26
+151r7 avion{117|107R9} 155m13 156m13 157m13 158m13 159m13 160m13 161r50
+153i11 aereovia{117|96I9} 157r39 160r31 161r72
+154m14 i{117|61M9} 161r47
+166r13 event{3|53R9} 167r104
+177r7 avion_aux{117|107R9} 182m11 183r17 183r39 185m14
+178m7 pos{117|61M9} 181m11 182r57 184m14 184r21 185r60 192r14
+188r16 event{3|53R9} 189r97
+198r7 avion_aux{117|107R9} 203m11 204r17 204r39 206m14
+199m7 pos{117|62M9} 202m11 203r66 205m14 205r21 206r69 213r14
+209r16 event{3|53R9} 210r106
+234m7 pos{117|61M9} 237m7 238r38
+240r13 event{3|53R9} 241r94
+247m7 pos{117|62M9} 250m7 251r47
+253r13 event{3|53R9} 254r103
+281r7 avion_cercano{117|107R9} 291m41 293r23 293r69 295r56 295r105
+282i7 dist_obstaculo{integer} 291m56 293r105 295r168
+283m7 pos{117|61M9} 288m7 289r41
+303m7 pos{117|62M9} 308m7 309r50
+345r7 avion_aux{117|107R9} 354m10 356r25 356r67 357r27 361r33
+346i7 min_dist_x{117|74I12} 359r25 360m16 362r29
+347i7 dist_x{integer} 357m13 359r16 360r30
+352m11 pos{117|61M9} 354r77
+370r13 event{3|53R9} 371r104
+381i7 nueva_pos_x{integer} 383m7 384r10 385m10 386r13 387m10 390r28
+399i7 nueva_pos_y{integer} 401m7 402r10 403m10 406r28
+416m7 pos_primer_avion{117|61M9} 443m13 445r26
+417m7 pos_ultimo_avion{117|61M9} 444m13 451r38
+418m7 pos_avion{117|61M9} 445m13 447r63 451r26 453m16 453r29
+419r7 Item_avion{117|107R9} 447m16 449r38 464m13 466r35
+420m7 pos_primer_avion_en_pista{117|62M9} 460m10 462r32
+421m7 pos_ultimo_avion_en_pista{117|62M9} 461m10 468r44
+422m7 pos_avion_en_pista{117|62M9} 462m10 464r69 468r23 470m13 470r35
+429i11 i{117|96I9} 430r55 431r59 432r46 432r74
+441i11 aereovia{117|96I9} 442r57 443r88 444r88 447r89
+495i11 i{integer} 496r13 497r102 498r102 499r102 500r102
+516i11 i{integer} 517r59 518r59 519r59 520r59
+538i7 x{35|49I9} 553m7 555r37 556m7 556r12 557r37 558m7 558r12 560r37 561m7
+. 561r12 563r37 564m7 564r12 565r37 566m7 566r12 568r37 569m7 569r12 571r37
+. 572m7 572r12 573r37 574m7 574r12 576r37 577m7 577r12 579r37 580m7 580r12
+. 581r37 582m7 582r12 584r37 585m7 585r12 586r37 587m7 587r12 589r37 590m7
+. 590r12 592r37
+539i7 y{35|49I9} 554m7 555r49 557r49 559m7 559r12 560r49 562m7 562r12 563r49
+. 565r49 567m7 567r12 568r49 570m7 570r12 571r49 573r49 575m7 575r12 576r49
+. 578m7 578r12 579r49 581r49 583m7 583r12 584r49 586r49 588m7 588r12 589r49
+. 591m7 591r12 592r49
+540i7 dir{35|49I9} 546m10 549m10 556r17 558r16 561r16 564r17 566r17 569r17
+. 572r17 574r16 577r16 580r16 582r16 585r16 587r16 590r17
+541r7 color{93|55R12} 544m7 594r36 594r47 594r60
+542i7 x_identificador{35|49I9} 547m10 550m10 599r37 601r37
+651i11 i{integer} 652r42 652r55 652r68 652r83
+X 117 pkg_tipos.ads
+5K9*PKG_tipos 115|5w6 5r21 117|121e14
+12I9*T_RangoVelocidad<integer> 115|162r70 166r70 116|380r67 398r66
+20X4*DETECTADA_COLISION 116|296r16
+24E9*T_Color 115|178r43 116|629r40 117|24e80
+24n21*Red{24E9} 116|632r15
+24n26*Green{24E9} 116|633r15
+24n33*Blue{24E9} 116|634r15
+24n39*Yellow{24E9} 116|635r15
+24n47*Cyan{24E9} 116|639r15
+24n53*Orange{24E9} 116|640r15
+24n61*White{24E9} 116|637r15
+24n68*Black{24E9} 116|636r15
+24n75*Grey{24E9} 116|638r15
+27E9*T_PistaAterrizaje 115|45r32 116|271r32 273r26 117|27e57
+39N4*CANVAS_WIDTH 115|63r34 116|51r28 69r31 110r32
+40N4*CANVAS_HEIGHT 116|51r42 69r45 110r56
+42N4*ALTURA_AEREOVIA 115|78r45 79r45 80r45 81r45 82r45 116|428r40 432r48
+. 432r76 434r69 434r121
+48N4*X_INICIO_DER_AVION 116|264r21 385r25 386r27
+50N4*TAM_AVION 116|273r56 293r122 550r49
+52N4*Y_INICIO_PISTA 116|273r73 486r60 490r60 497r83 498r83 499r83 500r83
+. 507r60 511r60 517r71 518r71 519r71 520r71 526r79 528r81
+61M9*T_RangoBufferAviones 115|135r91 149r76 116|154r19 176r73 178r23 234r13
+. 283r23 354r56 416r26 417r26 418r26
+62M9*T_RangoBufferAvionesAterrizando 115|138r100 152r82 116|197r82 199r23
+. 247r13 303r13 420r35 421r35 422r35
+68i7*X{12I9} 116|285r67 545r26 614r26
+69i7*Y{12I9} 116|305r67
+74I12*T_CoordenadaX{integer} 115|162r47 162r95 116|346r24 346r41 380r44 380r92
+. 390r14
+75I12*T_CoordenadaY{integer} 115|53r36 166r47 166r95 116|318r36 320r22 398r44
+. 398r91 402r24 403r25 406r14
+77R9*T_Punto 115|43r60 45r58 116|261r60 271r58 117|81e14
+79i7*X{74I12} 116|156m23 264m18 266m18 273m15 285m17 285r48 357r41 357r55
+. 547r44 550r44 553r27 615r66 616r66 618r66 619r66
+80i7*Y{75I12} 116|157m23 264m41 266m24 273m70 305m17 305r48 554r27 599r69
+. 601r72 615r89 616r89 618r88 619r89
+96I9*T_Rango_AereoVia<integer> 115|43r35 85r27 136r30 148r66 151r66 116|153r23
+. 175r63 196r63 261r35 294r84 295r82 429r16 430r32 434r44 434r96 441r23 600r28
+99M9*T_IdAvion 115|148r37 151r37 116|175r34 196r34 294r50 295r40 598r29
+101E12*T_ColorAvion{24E9} 116|159r27
+104I12*T_Rango_Pista{integer} 115|88r24
+107R9*T_RecordAvion 115|35r33 36r42 39r36 40r45 49r50 50r59 135r71 138r80
+. 157r55 157r90 189r62 192r71 116|151r15 177r23 198r23 219r33 224r42 233r36
+. 246r45 280r50 281r23 302r59 343r52 343r87 345r24 419r26 537r58 610r68 117|117e14
+109m7*id{99M9} 116|155m19 183r27 204r27 237r36 250r36 288r36 293r17 293r37
+. 294r72 295r70 308r36 356r19 356r35 598r51
+110r7*pos{77R9} 116|156m19 157m19 285m13 285r44 305m13 305r44 357r37 357r51
+. 547r40 550r40 553r23 554r23 599r65 601r68 615r62 615r85 616r62 616r85 618r62
+. 618r84 619r62 619r85
+111r7*velocidad{66R9} 116|158m19 285r57 305r57 545r16 614r16
+112e7*color{101E12} 116|159m19 544r41
+113i7*aereovia{96I9} 116|160m19 221r75 237r85 238r64 288r85 289r74 352r79
+. 352r152 354r104
+114i7*aereovia_inicial{96I9} 116|183r49 204r49 237r46 250r46 288r46 293r49
+. 293r83 294r113 295r119 308r46 356r47 356r77 600r57
+116b7*tren_aterrizaje{boolean} 116|603r16
+X 118 system.ads
+67M9*Address
+X 132 s-memory.ads
+53V13*Alloc{118|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{118|67M9} 105i<c,__gnat_realloc>22
+X 133 s-os_lib.ads
+1062U14*OS_Exit 116|141s19
+X 140 s-stalib.ads
+84P9*Exception_Data_Ptr(83R9)
+X 141 s-stalib.adb
+89U14 Break_Start 90i<c,__gnat_break_start>22
+
