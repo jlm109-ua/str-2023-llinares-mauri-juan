@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica4/practica4.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica4/src/pkg_graficos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica4/practica4.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica4/src/pkg_graficos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 28" >
+      <vfs_project>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica4/practica4.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica4/src/pkg_protegidos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 33" >
+      <vfs_project>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica4/practica4.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica4/src/pkg_protegidos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 19" >
+      <vfs_project>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica4/practica4.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica4/src/generaaviones.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica4/practica4.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica4/src/pkg_protegidos.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
