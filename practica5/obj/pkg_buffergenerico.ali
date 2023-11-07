@@ -1,0 +1,72 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U pkg_buffergenerico%b	pkg_buffergenerico.adb	922ceabb NE OO PK GE
+
+U pkg_buffergenerico%s	pkg_buffergenerico.ads	a4246473 BN EE NE OO PK GE
+
+D pkg_buffergenerico.ads  20220907080950 a4246473 pkg_buffergenerico%s
+D pkg_buffergenerico.adb  20220907080950 36088ec8 pkg_buffergenerico%b
+D system.ads		20210520051134 a2da961d system%s
+G a e
+G c Z s b [pkg_buffergenerico standard 9 9 none]
+X 1 pkg_buffergenerico.ads
+6+9 Tipo_Dato 11r41 12r44 13r51 16r68 21r60 24r50 28r39 2|6r41 13r44 20r51
+. 35r68 51r59 78r50
+7M9 tam 13r37 14r62 15r62 16r35 21r45 23r35 24r36 28r31 33r19 33r25 34r19
+. 34r25 2|20r37 25r62 30r62 35r35 47r35 51r44 52r8 65r34 66r8 78r36 79r8
+9k9*PKG_bufferGenerico 6z9 7z9 28E12 38l5 38e23 2|5b14 92l5 92t23
+10R9*T_Buffer 11r67 12r70 13r77 14r45 15r45 16r51 17r30 18r30 21r86 23r55
+. 24r76 30c12 36e19 2|6r67 13r70 20r77 25r45 30r45 35r51 40r30 45r30 51r85
+. 65r54 78r76
+11U14*Insertar_Ultimo_Item 11>35 11=52 2|6b14 11l8 11t28
+11*35 item{6+9} 2|6b35 8r35
+11r52 buffer{10R9} 2|6b52 8m7 8r21 9m7 9r20 10m7 10r20
+12U14*Extraer_Primer_Item 12<34 12=55 2|13b14 18l8 18t27
+12*34 item{6+9} 2|13b34 16m7
+12r55 buffer{10R9} 2|13b55 15m7 15r21 16r14 16r28 17m7 17r20
+13U14*Actualiza_Item 13>29 13>42 13=62 2|20b14 23l8 23t22
+13*29 pos{7M9} 2|20b29 22r21
+13*42 item{6+9} 2|20b42 22r29
+13r62 buffer{10R9} 2|20b62 22m7
+14V13*Posicion_Primer_Item{7M9} 14>34 2|25b13 28l8 28t28 56s18 69s18
+14r34 buffer{10R9} 2|25b34 27r14
+15V13*Posicion_Ultimo_Item{7M9} 15>34 2|30b13 33l8 33t28 81s11
+15r34 buffer{10R9} 2|30b34 32r14
+16V13*Consulta_Item{6+9} 16>27 16>40 2|35b13 38l8 38t21
+16*27 pos{7M9} 2|35b27 37r28
+16r40 buffer{10R9} 2|35b40 37r14
+17V13*Vacio{boolean} 17>19 2|40b13 43l8 43t13
+17r19 buffer{10R9} 2|40b19 42r14
+18V13*Lleno{boolean} 18>19 2|45b13 48l8 48t13
+18r19 buffer{10R9} 2|45b19 47r14
+21U14*Extraer_Posicion_Item 21>36 21<50 21=71 2|51b14 63l8 63t29
+21*36 pos{7M9} 2|51b36 54r29 55r11
+21*50 item{6+9} 2|51b49 54m7 61m7
+21r71 buffer{10R9} 2|51b70 54r15 56r39 57m10 57r30 60m7 60r21 61r14 61r28
+. 62m7 62r20
+23U14*Borrar_Item 23>26 23=40 2|65b14 75l8 75t19
+23*26 pos{7M9} 2|65b26 68r11
+23r40 buffer{10R9} 2|65b39 69r39 70m10 70r30 73m7 73r21 74m7 74r20
+24U14*Insertar_Item 24>28 24>41 24=61 2|78b14 89l8 89t21
+24*28 pos{7M9} 2|78b28 82r18 86r21
+24*41 item{6+9} 2|78b41 86r29
+24r61 buffer{10R9} 2|78b61 81r32 83m10 83r32 86m7 87m7 87r20 88m7 88r20
+28A12 T_Vector(6+9)<7M9> 32r19
+32a11 vector{28A12} 2|8m14 16r21 22m14 37r21 54r22 57m17 57r37 61r21 70m17
+. 70r37 83m17 83r39 86m14
+33*11 top{7M9} 2|8r28 9m14 9r27 32r21 87m14 87r27
+34*11 Base{7M9} 2|15m14 15r28 16r35 27r21 60m14 60r28 61r35 73m14 73r28
+35i11 num{natural} 2|10m14 10r27 17m14 17r27 42r21 47r21 62m14 62r27 74m14
+. 74r27 88m14 88r27
+X 2 pkg_buffergenerico.adb
+52*4 i{1|7M9} 55m7 56r13 57r24 57r44 58m10 58r15
+66*4 i{1|7M9} 68m7 69r13 70r24 70r44 71m10 71r15
+79*4 i{1|7M9} 81m7 82r13 83r24 83r46 84m10 84r15
+

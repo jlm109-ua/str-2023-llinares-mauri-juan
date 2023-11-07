@@ -1,0 +1,20 @@
+ 
+**************************************************************************
+**************************************************************************
+          PRACTICA STR: CONTROL DE TRAFICO AEREO
+**************************************************************************
+**************************************************************************
+ 
+Inicializando Entorno Gráfico...
+Entorno Gráfico Inicializado.
+Informacion del avion:  0
+Generando el nuevo avión...
+El nuevo avión pasó la barrera de seguridad
+Informacion del avion:  0
+Generando el nuevo avión...
+El nuevo avión pasó la barrera de seguridad
+INICIAR TORRE DE CONTROL
+Avión  0 solicita descenso desde la aerovía  2
+Descenso denegado
+Avión  0 solicita descenso desde la aerovía  1
+Descenso denegado

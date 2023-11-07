@@ -1,0 +1,1 @@
+pkg_torre_control.adb:26:35: warning: "pistaAux" may be referenced before it has a value [enabled by default]

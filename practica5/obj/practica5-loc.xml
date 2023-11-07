@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica5/practica5.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica5/src/pkg_graficos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica5/practica5.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica5/src/pkg_graficos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica5/practica5.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica5/src/pkg_tipos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 118" >
+      <vfs_project>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica5/practica5.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica5/src/pkg_tipos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 21" >
+      <vfs_project>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica5/practica5.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica5/src/pkg_graficos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 25" >
+      <vfs_project>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica5/practica5.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica5/src/pkg_graficos.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 3" >
+      <vfs_project>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica5/practica5.gpr</vfs_project>
+      <vfs_file>/home/str/Escritorio/str-2023-llinares-mauri-juan/practica5/src/pkg_torre_control.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
