@@ -13,7 +13,7 @@ package body pkg_torre_control is
               when control => accept Descender (avion : in T_RecordAvion; estado : out Boolean; pista : out T_PistaAterrizaje) 
                do
                   -- Si no se supera la cantidad de aviones máxima permitida en una aereovía...
-                  if (aereovias(avion.aereovia + 1).cantidad /= MAX_AVIONES_AEROVIA) then
+                  if (aereovias(avion.aereovia + 1).cantidad < MAX_AVIONES_AEROVIA) then
                       estado := true; -- Puede descender
                    
                       -- Mientras no sea la última aereovía...
