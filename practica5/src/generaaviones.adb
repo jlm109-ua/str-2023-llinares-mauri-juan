@@ -141,7 +141,9 @@ package body GeneraAviones is
                  sigue;
              end if;
          then abort
-             sigue;
+            loop 
+               sigue;
+            end loop;
          end select;
       end loop;
       
