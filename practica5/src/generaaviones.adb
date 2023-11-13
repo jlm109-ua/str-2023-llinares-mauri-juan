@@ -52,6 +52,8 @@ package body GeneraAviones is
       avion : T_RecordAvion;
       
       estado : Boolean := False; -- Estado para el descenso
+      consulta : Boolean := False; -- Consulta para ver si el avión ha podido bajar
+      descensoAux : Boolean := False; -- Variable auxiliar para manejar el descenso
       pista : T_PistaAterrizaje; -- Pista asignada para el descenso
       
       rejilla_sig : T_Rango_Rejilla_X; -- Rejilla siguiente
@@ -73,6 +75,7 @@ package body GeneraAviones is
       
       -- Procedimiento para que el avión descienda de aerovía
       procedure desciende is
+
       begin
          rejilla_act := Posicion_ZonaEspacioAereo(avion.pos.X);
          
@@ -121,25 +124,20 @@ package body GeneraAviones is
              rejilla_act := Posicion_ZonaEspacioAereo(avion.pos.X);
             
              -- Si las casillas adyacentes inferiores están libres y el descenso ha sido autorizado...
-             if estado 
-               and aereovias(avion.aereovia + 1).estado(rejilla_act) 
-               and aereovias(avion.aereovia + 1).estado(rejilla_act + 1) 
-               and aereovias(avion.aereovia + 1).estado(rejilla_act - 1)
-             then
-                 Escribir("Descenso autorizado");
+            if estado then
+               Escribir("Descenso autorizado");
                
-                 -- Si es la última casilla, el avión aterrizará.
-                 if avion.aereovia + 1 = T_Rango_AereoVia'Last then
-                     Escribir("Avion " & avion.id'Image & "aterrizando en pista: " & avion.pista'Image);
-                     aereovias(avion.aereovia).liberar(Posicion_ZonaEspacioAereo(avion.pos.X));
-                     Desaparece(avion);
-                     exit;
-                 end if;
-             else
-                 Escribir("Descenso denegado");
-                 aereovias(avion.aereovia + 1).decAviones;
-                 sigue;
-             end if;
+               while not descensoAux loop
+                  aereovias(avion.aereovia).bajar(consulta,rejilla_act,avion.aereovia+1);
+                  if consulta then
+                     descensoAux := true;
+                     avion.aereovia := avion.aereovia + 1;
+                  else
+                     sigue;
+                  end if;
+               end loop;
+                  descensoAux := false; -- Reiniciamos la variable por si tiene que descender más
+            end if;
          then abort
             loop 
                sigue;

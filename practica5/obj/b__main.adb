@@ -816,7 +816,7 @@ package body ada_main is
            True, True, False, False, False, False, False, False, 
            False, False, True, True, True, True, True, True, 
            False),
-         Count => (0, 0, 0, 1, 2, 2, 3, 1, 2, 0),
+         Count => (0, 0, 0, 1, 2, 2, 3, 1, 3, 0),
          Unknown => (False, False, False, False, False, False, True, True, True, False));
       Priority_Specific_Dispatching :=
         Local_Priority_Specific_Dispatching'Address;

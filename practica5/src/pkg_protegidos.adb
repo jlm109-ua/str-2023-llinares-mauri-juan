@@ -30,6 +30,21 @@
          liberar(posLiberar);
          ocupar(posBloquear);
       end;
+      
+      -- Procedimiento para consultar y actualizar.
+      procedure bajar(consulta : out Boolean; rejilla_act : T_Rango_Rejilla_X; aereovia : T_Rango_AereoVia) is
+      begin
+         if aereovias(aereovia).estado(rejilla_act) 
+           and aereovias(aereovia).estado(rejilla_act + 1) 
+           and aereovias(aereovia).estado(rejilla_act - 1)
+         then
+            aereovias(aereovia-1).liberar(rejilla_act);
+            aereovias(aereovia).ocupar(rejilla_act);
+            consulta := true;
+         else
+            consulta := false;
+         end if;
+      end;
    
       -- Función para revisar cuántos aviones hay en el contador.
       function cantidad return contador is

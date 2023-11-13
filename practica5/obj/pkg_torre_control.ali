@@ -21,7 +21,7 @@ RV MAX_TASK_ENTRIES=2
 RV MAX_TASKS=1
 RV MAX_ENTRY_QUEUE_LENGTH=1+
 
-U pkg_torre_control%b	pkg_torre_control.adb	85ef8364 OO PK IL
+U pkg_torre_control%b	pkg_torre_control.adb	1b63c219 OO PK IL
 Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 Z pkg_protegidos%s	pkg_protegidos.adb	pkg_protegidos.ali  AD
 Z system%s		system.ads		system.ali
@@ -30,7 +30,7 @@ Z system.tasking%s	s-taskin.adb		s-taskin.ali
 Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
 Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
 
-U pkg_torre_control%s	pkg_torre_control.ads	f8204517 EE OO PK IL
+U pkg_torre_control%s	pkg_torre_control.ads	9b8ffc01 EE OO PK IL
 Z ada.real_time%s	a-reatim.adb		a-reatim.ali
 W pkg_protegidos%s	pkg_protegidos.adb	pkg_protegidos.ali
 W pkg_tipos%s		pkg_tipos.ads		pkg_tipos.ali
@@ -55,10 +55,10 @@ D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
 D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051131 edec285f interfaces%s
 D i-c.ads		20210520051131 d9beded9 interfaces.c%s
-D pkg_protegidos.ads	20231030114647 72c55023 pkg_protegidos%s
+D pkg_protegidos.ads	20231113110139 116ae935 pkg_protegidos%s
 D pkg_tipos.ads		20231106093425 df67846b pkg_tipos%s
 D pkg_torre_control.ads	20231107165404 5582915f pkg_torre_control%s
-D pkg_torre_control.adb	20231107171011 d06d123b pkg_torre_control%b
+D pkg_torre_control.adb	20231111115443 4ee15346 pkg_torre_control%b
 D system.ads		20210520051134 a2da961d system%s
 D s-atacco.ads		20210520051131 4c36d12f system.address_to_access_conversions%s
 D s-exctab.ads		20210520051131 54135002 system.exception_table%s
@@ -96,27 +96,27 @@ G c Z s b [iniciar_torre_control pkg_torre_control__tarea_torre_control 6 13 non
 G c Z s b [descender pkg_torre_control__tarea_torre_control 7 13 none]
 G c Z s s [tarea_torre_controlTKVIP pkg_torre_control 5 4 none]
 G c Z s s [P4sIP pkg_torre_control 7 7 none]
-G r p none [b pkg_torre_control 1 1 none] [cantidad pkg_protegidos__op_aereovias 23 16 none]
-G r p none [b pkg_torre_control 1 1 none] [incaviones pkg_protegidos__op_aereovias 25 17 none]
-G r p none [iniciar_torre_control pkg_torre_control__tarea_torre_control 6 13 none] [cantidad pkg_protegidos__op_aereovias 23 16 none]
-G r p none [iniciar_torre_control pkg_torre_control__tarea_torre_control 6 13 none] [incaviones pkg_protegidos__op_aereovias 25 17 none]
-G r p none [descender pkg_torre_control__tarea_torre_control 7 13 none] [cantidad pkg_protegidos__op_aereovias 23 16 none]
-G r p none [descender pkg_torre_control__tarea_torre_control 7 13 none] [incaviones pkg_protegidos__op_aereovias 25 17 none]
-G r p none [tarea_torre_controlTK pkg_torre_control 5 9 none] [cantidad pkg_protegidos__op_aereovias 23 16 none]
-G r p none [tarea_torre_controlTK pkg_torre_control 5 9 none] [incaviones pkg_protegidos__op_aereovias 25 17 none]
+G r p none [b pkg_torre_control 1 1 none] [cantidad pkg_protegidos__op_aereovias 25 16 none]
+G r p none [b pkg_torre_control 1 1 none] [incaviones pkg_protegidos__op_aereovias 27 17 none]
+G r p none [iniciar_torre_control pkg_torre_control__tarea_torre_control 6 13 none] [cantidad pkg_protegidos__op_aereovias 25 16 none]
+G r p none [iniciar_torre_control pkg_torre_control__tarea_torre_control 6 13 none] [incaviones pkg_protegidos__op_aereovias 27 17 none]
+G r p none [descender pkg_torre_control__tarea_torre_control 7 13 none] [cantidad pkg_protegidos__op_aereovias 25 16 none]
+G r p none [descender pkg_torre_control__tarea_torre_control 7 13 none] [incaviones pkg_protegidos__op_aereovias 27 17 none]
+G r p none [tarea_torre_controlTK pkg_torre_control 5 9 none] [cantidad pkg_protegidos__op_aereovias 25 16 none]
+G r p none [tarea_torre_controlTK pkg_torre_control 5 9 none] [incaviones pkg_protegidos__op_aereovias 27 17 none]
 X 15 pkg_protegidos.ads
-3K9*pkg_protegidos 41e19 17|2w6 2r26
+3K9*pkg_protegidos 43e19 17|2w6 2r26
 5I12*contador{integer}
-23V16 cantidad{5I12} 18|16s53
-25U17 incAviones 18|21s56
-39a4*aereovias(9W19) 18|16r23 21r26
+25V16 cantidad{5I12} 18|16s53
+27U17 incAviones 18|21s56
+41a4*aereovias(9W19) 18|16r23 21r26
 X 16 pkg_tipos.ads
 5K9*PKG_tipos 117e14 17|1w6 1r21
 27E9*T_PistaAterrizaje 27e57 17|7r83 18|3r18 13r109
 27n31*SIN_PISTA{27E9} 18|25r40
 27n42*PISTA1{27E9} 18|27r47 27r71
 27n50*PISTA2{27E9} 18|27r59
-44N4*MAX_AVIONES_AEROVIA 18|16r65
+44N4*MAX_AVIONES_AEROVIA 18|16r64
 92I9*T_Rango_AereoVia<integer> 18|20r48
 103R9*T_RecordAvion 113e14 17|7r34 18|13r60
 109i7*aereovia{92I9} 18|16r39 20r32 21r42

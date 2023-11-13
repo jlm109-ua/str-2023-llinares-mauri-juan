@@ -16,6 +16,8 @@ package pkg_protegidos is
       procedure liberar(pos : T_Rango_Rejilla_X);
       -- Procedimiento para cambiar las posiciones en una aerovía.
       procedure cambiar(posBloquear : T_Rango_Rejilla_X; posLiberar : T_Rango_Rejilla_X);
+      -- Procedimiento para consultar y actualizar.
+      procedure bajar(consulta : out Boolean; rejilla_act : T_Rango_Rejilla_X; aereovia : T_Rango_AereoVia);
       
       
       -- Relacionadas con el contador...
