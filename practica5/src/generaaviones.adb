@@ -130,9 +130,13 @@ package body GeneraAviones is
                while not descensoAux loop
                   aereovias(avion.aereovia).bajar(consulta,rejilla_act,avion.aereovia+1);
                   if consulta then
+                     Escribir("DEBUG: Consulta exitosa");
                      descensoAux := true;
                      avion.aereovia := avion.aereovia + 1;
+                     Desaparece(avion);
+                     Aparece(avion);
                   else
+                     Escribir("DEBUG: Consulta falllida");
                      sigue;
                   end if;
                end loop;
