@@ -13,52 +13,61 @@ El nuevo avión pasó la barrera de seguridad
 INICIAR TORRE DE CONTROL
 Avión  0 solicita descenso desde la aerovía  1
 Descenso autorizado
-Informacion del avion:  0
-Generando el nuevo avión...
-El nuevo avión pasó la barrera de seguridad
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio libre
+DEBUG OP - Rejilla liberada
+DEBUG OP - Rejilla ocupada
+DEBUG - Consulta exitosa
 Avión  0 solicita descenso desde la aerovía  2
 Descenso autorizado
-Informacion del avion:  0
-Generando el nuevo avión...
-El nuevo avión pasó la barrera de seguridad
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio libre
+DEBUG OP - Rejilla liberada
+DEBUG OP - Rejilla ocupada
+DEBUG - Consulta exitosa
 Avión  0 solicita descenso desde la aerovía  3
 Descenso autorizado
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio libre
+DEBUG OP - Rejilla liberada
+DEBUG OP - Rejilla ocupada
+DEBUG - Consulta exitosa
 Informacion del avion:  0
 Generando el nuevo avión...
 El nuevo avión pasó la barrera de seguridad
 Avión  0 solicita descenso desde la aerovía  4
 Descenso autorizado
-Informacion del avion:  1
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio libre
+DEBUG OP - Rejilla liberada
+DEBUG OP - Rejilla ocupada
+DEBUG - Consulta exitosa
+Avión  0 solicita descenso desde la aerovía  2
+Descenso autorizado
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio libre
+DEBUG OP - Rejilla liberada
+DEBUG OP - Rejilla ocupada
+DEBUG - Consulta exitosa
+Informacion del avion:  0
 Generando el nuevo avión...
 El nuevo avión pasó la barrera de seguridad
-Avión  1 solicita descenso desde la aerovía  1
+Avión  0 solicita descenso desde la aerovía  5
 Descenso autorizado
-Informacion del avion:  1
-Generando el nuevo avión...
-El nuevo avión pasó la barrera de seguridad
-Avión  1 solicita descenso desde la aerovía  2
-Descenso autorizado
-Informacion del avion:  1
-Generando el nuevo avión...
-El nuevo avión pasó la barrera de seguridad
-Avión  1 solicita descenso desde la aerovía  3
-Descenso autorizado
-Informacion del avion:  1
-Generando el nuevo avión...
-El nuevo avión pasó la barrera de seguridad
-Avión  1 solicita descenso desde la aerovía  4
-Descenso autorizado
-Informacion del avion:  2
-Generando el nuevo avión...
-El nuevo avión pasó la barrera de seguridad
-Avión  2 solicita descenso desde la aerovía  1
-Descenso autorizado
-Informacion del avion:  2
-Generando el nuevo avión...
-Informacion del avion:  2
-Generando el nuevo avión...
-El nuevo avión pasó la barrera de seguridad
-Avión  2 solicita descenso desde la aerovía  3
-Descenso autorizado
-Informacion del avion:  2
-Generando el nuevo avión...
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio libre
+DEBUG OP - Rejilla liberada
+DEBUG OP - Rejilla ocupada
+DEBUG - Consulta exitosa

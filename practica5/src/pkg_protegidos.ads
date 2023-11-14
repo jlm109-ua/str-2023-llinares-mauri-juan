@@ -1,4 +1,5 @@
 with PKG_tipos; use PKG_tipos;
+with PKG_debug; use PKG_debug;
 
 package pkg_protegidos is
    -- Contador para limitar el número de aviones que hay en la aerovía.

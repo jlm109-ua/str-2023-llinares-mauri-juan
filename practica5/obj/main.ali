@@ -124,7 +124,7 @@ D pango-tabs.ads	20210519053508 0c575925 pango.tabs%s
 D pkg_buffergenerico.ads  20220907080950 a4246473 pkg_buffergenerico%s
 D pkg_debug.ads		20220907080950 edd8aa0d pkg_debug%s
 D pkg_graficos.ads	20231106093418 20424d64 pkg_graficos%s
-D pkg_protegidos.ads	20231113110139 116ae935 pkg_protegidos%s
+D pkg_protegidos.ads	20231113111311 f64fd55e pkg_protegidos%s
 D pkg_retardos.ads	20231010080509 7d15b62d pkg_retardos%s
 D pkg_tipos.ads		20231106093425 df67846b pkg_tipos%s
 D pkg_torre_control.ads	20231107165404 5582915f pkg_torre_control%s

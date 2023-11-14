@@ -248,9 +248,9 @@ package ada_main is
    pragma Export (C, u00103, "system__string_hashB");
    u00104 : constant Version_32 := 16#84464e89#;
    pragma Export (C, u00104, "system__string_hashS");
-   u00105 : constant Version_32 := 16#571169ab#;
+   u00105 : constant Version_32 := 16#3530cda5#;
    pragma Export (C, u00105, "generaavionesB");
-   u00106 : constant Version_32 := 16#895ad592#;
+   u00106 : constant Version_32 := 16#6e7fe9f9#;
    pragma Export (C, u00106, "generaavionesS");
    u00107 : constant Version_32 := 16#ffaa9e94#;
    pragma Export (C, u00107, "ada__calendar__delaysB");
@@ -886,11 +886,11 @@ package ada_main is
    pragma Export (C, u00422, "system__concat_2S");
    u00423 : constant Version_32 := 16#1b63c219#;
    pragma Export (C, u00423, "pkg_torre_controlB");
-   u00424 : constant Version_32 := 16#9b8ffc01#;
+   u00424 : constant Version_32 := 16#7caac06a#;
    pragma Export (C, u00424, "pkg_torre_controlS");
-   u00425 : constant Version_32 := 16#a6a76d71#;
+   u00425 : constant Version_32 := 16#cc973eba#;
    pragma Export (C, u00425, "pkg_protegidosB");
-   u00426 : constant Version_32 := 16#ce0d6d5e#;
+   u00426 : constant Version_32 := 16#c4f0fb38#;
    pragma Export (C, u00426, "pkg_protegidosS");
    u00427 : constant Version_32 := 16#0704a88f#;
    pragma Export (C, u00427, "system__tasking__protected_objectsB");

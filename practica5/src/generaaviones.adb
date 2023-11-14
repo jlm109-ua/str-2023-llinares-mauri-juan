@@ -123,26 +123,27 @@ package body GeneraAviones is
                     
              rejilla_act := Posicion_ZonaEspacioAereo(avion.pos.X);
             
-             -- Si las casillas adyacentes inferiores están libres y el descenso ha sido autorizado...
+             -- Si el descenso ha sido autorizado...
             if estado then
                Escribir("Descenso autorizado");
                
+               -- Probamos a descender comprobando las casillas inferiores
                while not descensoAux loop
-                  aereovias(avion.aereovia).bajar(consulta,rejilla_act,avion.aereovia+1);
+                  -- El avión intenta descender
+                  aereovias(avion.aereovia+1).bajar(consulta,rejilla_act,avion.aereovia);
                   if consulta then
-                     Escribir("DEBUG: Consulta exitosa");
+                     Escribir("DEBUG - Consulta exitosa");
                      Desaparece(avion);
                      descensoAux := true;
                      avion.aereovia := avion.aereovia + 1;
                      Aparece(avion);
                   else
-                     Escribir("DEBUG: Consulta falllida");
+                     Escribir("DEBUG - Consulta fallida");
                      sigue;
                   end if;
                end loop;
                descensoAux := false; -- Reiniciamos la variable por si tiene que descender más
             end if;
-            delay 2.0;
          then abort
             loop 
                sigue;
