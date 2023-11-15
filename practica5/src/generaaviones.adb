@@ -84,7 +84,7 @@ package body GeneraAviones is
          
          -- Eliminamos el avión
          Desaparece(avion);
-         aereovias(avion.aereovia - 1).decAviones;
+         aereovias(avion.aereovia).decAviones;
          
          -- Actualizamos su nueva aerovía
          avion.aereovia := avion.aereovia + 1;
@@ -93,12 +93,6 @@ package body GeneraAviones is
          avion.velocidad.X := (if avion.aereovia rem 2 = 0 then VELOCIDAD_VUELO else -VELOCIDAD_VUELO);
          
          avion.pos := Pos_Inicio(avion.pos.X, avion.aereovia);
-         
-         -- Actualizamos su color a amarillo
-         if avion.pista = SIN_PISTA then
-            avion.pista := pista;
-            avion.color := (if pista = PISTA1 then Blue else Yellow);
-         end if;
          
          -- Volvemos a mostrar el avión
          Aparece(avion);
@@ -133,10 +127,8 @@ package body GeneraAviones is
                   aereovias(avion.aereovia+1).bajar(consulta,rejilla_act,avion.aereovia);
                   if consulta then
                      Escribir("DEBUG - Consulta exitosa");
-                     Desaparece(avion);
+                     desciende;
                      descensoAux := true;
-                     avion.aereovia := avion.aereovia + 1;
-                     Aparece(avion);
                   else
                      Escribir("DEBUG - Consulta fallida");
                      sigue;

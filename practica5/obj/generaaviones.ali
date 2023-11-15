@@ -28,7 +28,7 @@ RV MAX_TASKS=1+
 RV MAX_ASYNCHRONOUS_SELECT_NESTING=1+
 RV MAX_ENTRY_QUEUE_LENGTH=1+
 
-U generaaviones%b	generaaviones.adb	3530cda5 OO PK IL
+U generaaviones%b	generaaviones.adb	f229a329 OO PK IL
 W ada%s			ada.ads			ada.ali
 Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
@@ -111,7 +111,7 @@ D gdk-types.ads		20210519053508 921dc8b2 gdk.types%s
 D gdk-visual.ads	20210519053508 615e934c gdk.visual%s
 D gdk-window.ads	20210519053508 aa508024 gdk.window%s
 D generaaviones.ads	20231107163730 4a1b7dd4 generaaviones%s
-D generaaviones.adb	20231114134311 d1df651c generaaviones%b
+D generaaviones.adb	20231115142356 16c60b90 generaaviones%b
 D glib.ads		20210519053508 7d107887 glib%s
 D glib-error.ads	20210519053508 e055fabe glib.error%s
 D glib-g_icon.ads	20210519053508 099367ad glib.g_icon%s
@@ -252,14 +252,18 @@ G r c none [t_tareaavion generaaviones 14 14 none] [nueva_posicionx pkg_graficos
 G r p none [t_tareaavion generaaviones 14 14 none] [cambiar pkg_protegidos__op_aereovias 19 17 none]
 G r c none [t_tareaavion generaaviones 14 14 none] [actualiza_movimiento pkg_graficos 53 14 none]
 G r p none [t_tareaavion generaaviones 14 14 none] [bajar pkg_protegidos__op_aereovias 21 17 none]
+G r p none [t_tareaavion generaaviones 14 14 none] [liberar pkg_protegidos__op_aereovias 17 17 none]
+G r p none [t_tareaavion generaaviones 14 14 none] [ocupar pkg_protegidos__op_aereovias 15 17 none]
 G r c none [t_tareaavion generaaviones 14 14 none] [desaparece pkg_graficos 43 14 none]
+G r p none [t_tareaavion generaaviones 14 14 none] [decaviones pkg_protegidos__op_aereovias 30 17 none]
+G r c none [t_tareaavion generaaviones 14 14 none] [pos_inicio pkg_graficos 48 13 none]
 X 1 ada.ads
 16K9*Ada 20e8 39|2r6 3r6 3r31 4r6 4r23 7r6 7r26 40|1r6 1r23 9r41 13r38
 X 4 a-except.ads
 44K13*Exceptions 289e19 39|7w10 7r30
 48P9*Exception_Id<143|84P9>
-60V13*Exception_Name{string} 40|157s43
-92V13*Exception_Identity{48P9} 40|157s58
+60V13*Exception_Name{string} 40|149s43
+92V13*Exception_Identity{48P9} 40|149s58
 X 6 a-inteio.ads
 18K13*Integer_Text_IO[18|46] 39|3w10 3r35
 X 8 a-numeri.ads
@@ -270,11 +274,11 @@ X 9 a-nudira.ads
 52V13 Random{114|24E9} 40|32s48[13] 46s47[9]
 61U14 Reset<136|103p14> 40|17s26[9] 18s23[13]
 X 10 a-nudira.adb
-53V16 Random[136|86]{integer} 137|402b13[40|9]
-65V16 Random[136|86]{integer} 137|402b13[40|9]
+53V16 Random[136|86]{114|24E9} 137|402b13[40|13]
+65V16 Random[136|86]{114|24E9} 137|402b13[40|13]
 X 17 a-textio.ads
 58K13*Text_IO 725e16 39|4w10 4r27 40|1w10 1r27
-506U14*Put_Line 40|110s7
+506U14*Put_Line 40|104s7
 X 23 gdk.ads
 43P9*Gdk_Window<41|153P9>
 46P9*Gdk_Visual<41|153P9>
@@ -289,10 +293,10 @@ X 38 gdk-window.ads
 280V13*Convert{116|67M9} 45|58i21
 281V13*Convert{23|43P9} 45|59i21
 X 39 generaaviones.ads
-11K9*GeneraAviones 17l5 17e18 40|3b14 159l5 159t18
+11K9*GeneraAviones 17l5 17e18 40|3b14 151l5 151t18
 12t9*TareaGeneraAviones 40|4b12 49l8 49t26
-14T14*T_TareaAvion 14d27 16r34 40|43r32 51b14 158l8 158t20
-14p27 ptr_avion{114|115P9} 40|107r16 110r49 111r41
+14T14*T_TareaAvion 14d27 16r34 40|43r32 51b14 150l8 150t20
+14p27 ptr_avion{114|115P9} 40|101r16 104r49 105r41
 16P9*Ptr_TareaAvion(14T14) 40|5r21
 X 40 generaaviones.adb
 5p7 tarea_avion{39|16P9} 43m13
@@ -305,18 +309,17 @@ X 40 generaaviones.adb
 20m11 id{114|95M9} 25r29
 21i14 aereovia<integer> 28r35 30r43 33r41
 52r7 avion{114|103R9} 65r67 65r79 66r51 69r23 72m31 72r31 80r51 82r20 83r20
-. 86r21 87r20 90m10 90r28 93m10 93r35 95m10 95r34 95r47 98r13 99m13 100m13
-. 104r18 107m7 109r54 114r17 114r75 115r15 121r44 122r34 122r92 124r55 133r29
-. 133m74 133r74 136r33 138m22 138r40 139r30 156r21
-54b7 estado{boolean} 121m50 127r16
-55b7 consulta{boolean} 133m53 134r22
-56b7 descensoAux{boolean} 131r26 137m22 145m16
-57e7 pista{114|27E9} 99r28 100r32 121m57
+. 86r21 87r20 90m10 90r28 93m10 93r35 95m10 95r34 95r47 98r18 101m7 103r54
+. 108r17 108r75 109r15 115r44 116r34 116r92 118r55 127r29 127m74 127r74 148r21
+54b7 estado{boolean} 115m50 121r16
+55b7 consulta{boolean} 127m53 128r22
+56b7 descensoAux{boolean} 125r26 131m22 137m16
+57e7 pista{114|27E9} 115m57
 59m7 rejilla_sig{114|84M9} 65m10 68r28 69r47
-60m7 rejilla_act{114|84M9} 66m10 68r13 69r60 80m10 82r44 83r47 124m14 133r62
-63U17 sigue 63b17 74l11 74t16 142s22 149s16
-77U17 desciende 77b17 105l11 105t20
-155r12 event{4|53R9} 157r77
+60m7 rejilla_act{114|84M9} 66m10 68r13 69r60 80m10 82r44 83r47 118m14 127r62
+63U17 sigue 63b17 74l11 74t16 134s22 141s16
+77U17 desciende 77b17 99l11 99t20 130s22
+147r12 event{4|53R9} 149r77
 X 41 glib.ads
 153P9*C_Proxy(150R9)
 X 48 glib-object.ads
@@ -346,61 +349,58 @@ X 93 interfac.ads
 82M9*Unsigned_64
 X 111 pkg_debug.ads
 8K9*PKG_debug 39|6w6 6r21 111|38e14
-18U14*Escribir 40|109s7 113s7 116s7 122s14 128s16 135s22 141s22 157s10
-18a23 cadena{string} 40|109r16 113r16 116r16
+18U14*Escribir 40|103s7 107s7 110s7 116s14 122s16 129s22 133s22 149s10
+18a23 cadena{string} 40|103r16 107r16 110r16
 X 112 pkg_graficos.ads
 25K9*PKG_graficos 39|5w6 5r24 112|207e17
-39U14*Aparece 40|104s10 115s7 139s22
-43U14*Desaparece 40|86s10 136s22 156s10
+39U14*Aparece 40|98s10 109s7
+43U14*Desaparece 40|86s10 148s10
 47V13*Pos_Inicio{114|73R9} 40|33s30
 48V13*Pos_Inicio{114|73R9} 40|95s23
 53U14*Actualiza_Movimiento 40|72s10
 58V13*Nueva_PosicionX{114|70I12} 40|65s51
 X 113 pkg_protegidos.ads
 4K9*pkg_protegidos 39|8w6 8r26 113|44e19
-7V13*Posicion_ZonaEspacioAereo{114|84M9} 40|65s25 66s25 80s25 114s49 124s29
+7V13*Posicion_ZonaEspacioAereo{114|84M9} 40|65s25 66s25 80s25 108s49 118s29
 15U17 ocupar 40|83s40
 17U17 liberar 40|82s36
 19U17 cambiar 40|69s39
-21U17 bajar 40|133s47
-30U17 decAviones 40|87s40
-33Y13 barreraAereovia 40|114s33
-42a4*aereovias(10W19) 40|69r13 82r10 83r10 87r10 114r7 133r19
+21U17 bajar 40|127s47
+30U17 decAviones 40|87s36
+33Y13 barreraAereovia 40|108s33
+42a4*aereovias(10W19) 40|69r13 82r10 83r10 87r10 108r7 127r19
 X 114 pkg_tipos.ads
 5K9*PKG_tipos 39|1w6 1r21 114|117e14
 9N4*VELOCIDAD_VUELO 40|26r38 37r41 39r42 93r65 93r87
 12I9*T_RangoVelocidad<integer>
 17o4*RETARDO_MOVIMIENTO{duration} 40|73r25
-20X4*DETECTADA_COLISION 40|155r20
-24n33*Yellow{24E9} 40|100r62
-24n41*Blue{24E9} 40|100r52
+20X4*DETECTADA_COLISION 40|147r20
 27E9*T_PistaAterrizaje 40|57r15 114|27e57
-27n31*SIN_PISTA{27E9} 40|31r32 98r27
-27n42*PISTA1{27E9} 40|100r40
+27n31*SIN_PISTA{27E9} 40|31r32
 64i7*X{12I9} 40|26m33 37m36 39m36 65r95 93m26
 65i7*Y{12I9} 40|27m33
 70I12*T_CoordenadaX{integer}
-75i7*X{70I12} 40|65r77 66r61 80r61 95r44 114r85 124r65
+75i7*X{70I12} 40|65r77 66r61 80r61 95r44 108r85 118r65
 84M9*T_Rango_Rejilla_X 40|59r21 60r21
 89I12*T_RetardoAparicionAviones{integer} 40|9r70
-92I9*T_Rango_AereoVia<integer> 40|21r26 21r50 111r18
-95M9*T_IdAvion 40|20r17 110r33
+92I9*T_Rango_AereoVia<integer> 40|21r26 21r50 105r18
+95M9*T_IdAvion 40|20r17 104r33
 98E12*T_ColorAparicionAvion{97E12} 40|13r67
 103R9*T_RecordAvion 40|24r30 52r15 114|113e14
-105m7*id{95M9} 40|25m23 109r60 110r59 122r40
-106r7*pos{73R9} 40|33m23 65r73 66r57 80r57 95m16 95r40 114r81 124r61
+105m7*id{95M9} 40|25m23 103r60 104r59 116r40
+106r7*pos{73R9} 40|33m23 65r73 66r57 80r57 95m16 95r40 108r81 118r61
 107r7*velocidad{62R9} 40|26m23 27m23 37m26 39m26 65r85 93m16
-108e7*color{97E12} 40|32m23 100m19
+108e7*color{97E12} 40|32m23
 109i7*aereovia{92I9} 40|28m23 36r26 69r29 82r26 83r26 87r26 90m16 90r34 93r41
-. 95r53 111r51 114r23 122r98 133r35 133m80 138m28 138r46
+. 95r53 105r51 108r23 116r98 127r35 127m80
 110i7*aereovia_inicial{92I9} 40|30m23
-111e7*pista{27E9} 40|31m23 98r19 99m19
+111e7*pista{27E9} 40|31m23
 112b7*tren_aterrizaje{boolean} 40|29m23
 115P9*Ptr_T_RecordAvion(103R9) 39|14r39 40|6r19
 X 115 pkg_torre_control.ads
 4K9*pkg_torre_control 39|9w6 9r29 115|9e22
-5t9*Tarea_Torre_Control 40|121r14
-7Y13 Descender 40|121s34
+5t9*Tarea_Torre_Control 40|115r14
+7Y13 Descender 40|115s34
 X 116 system.ads
 67M9*Address
 X 136 s-rannum.ads

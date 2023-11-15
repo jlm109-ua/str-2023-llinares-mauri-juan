@@ -34,38 +34,43 @@
       -- Procedimiento para consultar y actualizar.
       procedure bajar(consulta : out Boolean; rejilla_act : T_Rango_Rejilla_X; aereovia : T_Rango_AereoVia) is
       begin
-         -- DEBUG
-         if not estado(rejilla_act) then 
-            Escribir("DEBUG - Posición actual libre");
-         else
-            Escribir("DEBUG - Posición actual ocupada");
-         end if;
-         if not estado(rejilla_act + 1) then 
-            Escribir("DEBUG - Posición actual + 1 libre");
-         else
-            Escribir("DEBUG - Posición actual + 1 ocupada");
-         end if;
-         if not estado(rejilla_act - 1) then 
-            Escribir("DEBUG - Posición actual - 1 libre");
-         else
-            Escribir("DEBUG - Posición actual - 1 ocupada");
-         end if;
-         -- Fin del debug
+         if aereovia /= T_Rango_AereoVia'Last then           
+            -- DEBUG
+            if not estado(rejilla_act) then 
+               Escribir("DEBUG - Posición actual libre");
+            else
+               Escribir("DEBUG - Posición actual ocupada");
+            end if;
+            if not estado(rejilla_act + 1) then 
+               Escribir("DEBUG - Posición actual + 1 libre");
+            else
+               Escribir("DEBUG - Posición actual + 1 ocupada");
+            end if;
+            if not estado(rejilla_act - 1) then 
+               Escribir("DEBUG - Posición actual - 1 libre");
+            else
+               Escribir("DEBUG - Posición actual - 1 ocupada");
+            end if;
+            -- Fin del debug
          
-         if not estado(rejilla_act) 
-           and not estado(rejilla_act + 1) 
-           and not estado(rejilla_act - 1)
-         then
-            Escribir("DEBUG OP - Espacio libre");
-            aereovias(aereovia).liberar(rejilla_act);
-            Escribir("DEBUG OP - Rejilla liberada");
+            if not estado(rejilla_act) 
+              and not estado(rejilla_act + 1) 
+              and not estado(rejilla_act - 1)
+            then
+               Escribir("DEBUG OP - Espacio libre");
+               aereovias(aereovia).liberar(rejilla_act);
+               Escribir("DEBUG OP - Rejilla liberada");
 
-            ocupar(rejilla_act);
-            Escribir("DEBUG OP - Avión descendido");
+               ocupar(rejilla_act);
+               Escribir("DEBUG OP - Avión descendido");
 
-            consulta := true;
+               consulta := true;
+            else
+               Escribir("DEBUG OP - Espacio ocupado");
+               consulta := false;
+            end if;
          else
-            Escribir("DEBUG OP - Espacio ocupado");
+            incAviones;
             consulta := false;
          end if;
       end;

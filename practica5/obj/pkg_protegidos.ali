@@ -20,7 +20,7 @@ RV NO_ELABORATION_CODE
 RV MAX_PROTECTED_ENTRIES=1
 RV MAX_ENTRY_QUEUE_LENGTH=1+
 
-U pkg_protegidos%b	pkg_protegidos.adb	cc973eba NE OO PK IL
+U pkg_protegidos%b	pkg_protegidos.adb	1a22c1b7 NE OO PK IL
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 Z system%s		system.ads		system.ali
 Z system.soft_links%s	s-soflin.adb		s-soflin.ali
@@ -57,7 +57,7 @@ D i-c.ads		20210520051131 d9beded9 interfaces.c%s
 D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
 D pkg_debug.ads		20220907080950 edd8aa0d pkg_debug%s
 D pkg_protegidos.ads	20231113111311 f64fd55e pkg_protegidos%s
-D pkg_protegidos.adb	20231114134404 3ad8ebe4 pkg_protegidos%b
+D pkg_protegidos.adb	20231115143855 ec6d14e9 pkg_protegidos%b
 D pkg_tipos.ads		20231106093425 df67846b pkg_tipos%s
 D system.ads		20210520051134 a2da961d system%s
 D s-atacco.ads		20210520051131 4c36d12f system.address_to_access_conversions%s
@@ -127,50 +127,50 @@ G c Z s s [TaereoviasBDF pkg_protegidos 42 4 none]
 G r c none [bajar pkg_protegidos__op_aereovias 21 17 none] [escribir pkg_debug 18 14 none]
 X 15 pkg_debug.ads
 8K9*PKG_debug 38e14 16|2w6 2r21
-18U14*Escribir 17|39s13 41s13 44s13 46s13 49s13 51s13 59s13 61s13 64s13 68s13
+18U14*Escribir 17|40s16 42s16 45s16 47s16 50s16 52s16 60s16 62s16 65s16 69s16
 X 16 pkg_protegidos.ads
-4K9*pkg_protegidos 44l5 44e19 17|1b15 107l5 107t19
-6I12*contador{integer} 26r32 38r14 17|74r32
+4K9*pkg_protegidos 44l5 44e19 17|1b15 112l5 112t19
+6I12*contador{integer} 26r32 38r14 17|79r32
 7V13*Posicion_ZonaEspacioAereo{18|84M9} 7>39 17|3b13 6l8 6t33
 7i39 pos_x{18|70I12} 17|3b39 5r32
-10W19*OP_Aereovias 37E7 39l8 39e20 42r43 17|8b19 106l7 106t19
-13V16 estado{boolean} 13>23 17|10b16 13l11 13t17 38s17 43s17 48s17 55s17
-. 56s20 57s20
+10W19*OP_Aereovias 37E7 39l8 39e20 42r43 17|8b19 111l7 111t19
+13V16 estado{boolean} 13>23 17|10b16 13l11 13t17 39s20 44s20 49s20 56s20
+. 57s23 58s23
 13m23 pos{18|84M9} 17|10b23 12r32
-15U17 ocupar 15>24 17|16b17 19l11 19t17 31s10 63s13
+15U17 ocupar 15>24 17|16b17 19l11 19t17 31s10 64s16
 15m24 pos{18|84M9} 17|16b24 18r25
-17U17 liberar 17>25 17|22b17 25l11 25t18 30s10 60s33
+17U17 liberar 17>25 17|22b17 25l11 25t18 30s10 61s36
 17m25 pos{18|84M9} 17|22b25 24r25
 19U17 cambiar 19>25 19>58 17|28b17 32t10
 19m25 posBloquear{18|84M9} 17|28b25 31r17
 19m58 posLiberar{18|84M9} 17|28b58 30r18
-21U17 bajar 21<23 21>47 21>80 17|35b17 71t10
-21b23 consulta{boolean} 17|35b23 66m13 69m13
-21m47 rejilla_act{18|84M9} 17|35b47 38r24 43r24 48r24 55r24 56r27 57r27 60r41
-. 63r20
-21i80 aereovia{18|92I9} 17|35b80 60r23
-26V16 cantidad{6I12} 17|74b16 77l11 77t19
-28U17 incAviones 17|80b17 83l11 83t21 104s10
-30U17 decAviones 17|86b17 89l11 89t21
-33Y13 barreraAereovia 33>29 17|92b13 105l11 105t26
-33m29 pos{18|84M9} 17|99r13
-37a7 zonas_ocupadas{18|86A9} 17|12r17 18r10 24r10 92r63 93r17 94r17 95r17
-. 100r13 102r13
-38i7 cont{6I12} 17|76r17 82r10 82r18 88r10 88r18 96r13
-42a4*aereovias(10W19) 17|60r13
+21U17 bajar 21<23 21>47 21>80 17|35b17 76t10
+21b23 consulta{boolean} 17|35b23 67m16 70m16 74m13
+21m47 rejilla_act{18|84M9} 17|35b47 39r27 44r27 49r27 56r27 57r30 58r30 61r44
+. 64r23
+21i80 aereovia{18|92I9} 17|35b80 37r13 61r26
+26V16 cantidad{6I12} 17|79b16 82l11 82t19
+28U17 incAviones 17|73s13 85b17 88l11 88t21 109s10
+30U17 decAviones 17|91b17 94l11 94t21
+33Y13 barreraAereovia 33>29 17|97b13 110l11 110t26
+33m29 pos{18|84M9} 17|104r13
+37a7 zonas_ocupadas{18|86A9} 17|12r17 18r10 24r10 97r63 98r17 99r17 100r17
+. 105r13 107r13
+38i7 cont{6I12} 17|81r17 87r10 87r18 93r10 93r18 101r13
+42a4*aereovias(10W19) 17|61r16
 X 17 pkg_protegidos.adb
-92m29 pos{18|84M9}
+97m29 pos{18|84M9}
 X 18 pkg_tipos.ads
 5K9*PKG_tipos 16|1w6 1r21 18|117e14
-44N4*MAX_AVIONES_AEROVIA 16|6r41 17|96r21
+44N4*MAX_AVIONES_AEROVIA 16|6r41 17|101r21
 48N4*X_INICIO_DER_AVION 17|5r57
 70I12*T_CoordenadaX{integer} 16|7r47 17|3r47
 83N4*TAM_X_REJILLA 17|5r40
 84M9*T_Rango_Rejilla_X 16|7r69 13r29 15r30 17r31 19r39 19r71 21r61 33r35
-. 17|3r69 5r14 10r29 16r30 22r31 28r39 28r71 35r61 92r35 92r78 93r32 94r32
-. 95r32 99r19 100r28 102r28
+. 17|3r69 5r14 10r29 16r30 22r31 28r39 28r71 35r61 97r35 97r78 98r32 99r32
+. 100r32 104r19 105r28 107r28
 86A9*T_Rejilla_Ocupacion(boolean)<84M9> 16|37r24
-92I9*T_Rango_AereoVia<integer> 16|21r91 42r22 17|35r91
+92I9*T_Rango_AereoVia<integer> 16|21r91 42r22 17|35r91 37r25
 X 35 s-stausa.ads
 208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
 273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22

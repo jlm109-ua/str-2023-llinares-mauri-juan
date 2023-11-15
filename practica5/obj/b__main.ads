@@ -248,7 +248,7 @@ package ada_main is
    pragma Export (C, u00103, "system__string_hashB");
    u00104 : constant Version_32 := 16#84464e89#;
    pragma Export (C, u00104, "system__string_hashS");
-   u00105 : constant Version_32 := 16#3530cda5#;
+   u00105 : constant Version_32 := 16#f229a329#;
    pragma Export (C, u00105, "generaavionesB");
    u00106 : constant Version_32 := 16#6e7fe9f9#;
    pragma Export (C, u00106, "generaavionesS");
@@ -888,7 +888,7 @@ package ada_main is
    pragma Export (C, u00423, "pkg_torre_controlB");
    u00424 : constant Version_32 := 16#7caac06a#;
    pragma Export (C, u00424, "pkg_torre_controlS");
-   u00425 : constant Version_32 := 16#cc973eba#;
+   u00425 : constant Version_32 := 16#1a22c1b7#;
    pragma Export (C, u00425, "pkg_protegidosB");
    u00426 : constant Version_32 := 16#c4f0fb38#;
    pragma Export (C, u00426, "pkg_protegidosS");
