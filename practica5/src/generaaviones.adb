@@ -130,6 +130,7 @@ package body GeneraAviones is
                         Escribir("DEBUG - Sacando avión del entorno...");
                         aereovias(avion.aereovia).liberar(Posicion_ZonaEspacioAereo(avion.pos.X));
                         Desaparece(avion);
+                        aereovias(avion.aereovia).decAviones;
                      else                                            
                         Escribir("DEBUG - Consulta exitosa");
                         desciende;
