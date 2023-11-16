@@ -20,8 +20,6 @@ DEBUG OP - Espacio libre
 DEBUG OP - Rejilla liberada
 DEBUG OP - Avión descendido
 DEBUG - Consulta exitosa
-Informacion del avion:  0
-Generando el nuevo avión...
 Avión  0 solicita descenso desde la aerovía  2
 Descenso autorizado
 DEBUG - Posición actual libre
@@ -31,6 +29,8 @@ DEBUG OP - Espacio libre
 DEBUG OP - Rejilla liberada
 DEBUG OP - Avión descendido
 DEBUG - Consulta exitosa
+Informacion del avion:  0
+Generando el nuevo avión...
 El nuevo avión pasó la barrera de seguridad
 Avión  0 solicita descenso desde la aerovía  3
 Descenso autorizado
@@ -53,9 +53,6 @@ DEBUG OP - Espacio libre
 DEBUG OP - Rejilla liberada
 DEBUG OP - Avión descendido
 DEBUG - Consulta exitosa
-Informacion del avion:  0
-Generando el nuevo avión...
-El nuevo avión pasó la barrera de seguridad
 Avión  0 solicita descenso desde la aerovía  4
 Descenso autorizado
 DEBUG - Posición actual libre
@@ -65,6 +62,9 @@ DEBUG OP - Espacio libre
 DEBUG OP - Rejilla liberada
 DEBUG OP - Avión descendido
 DEBUG - Consulta exitosa
+Informacion del avion:  0
+Generando el nuevo avión...
+El nuevo avión pasó la barrera de seguridad
 Avión  0 solicita descenso desde la aerovía  3
 Descenso autorizado
 DEBUG - Posición actual libre
@@ -81,13 +81,84 @@ Avión  0 solicita descenso desde la aerovía  3
 Descenso autorizado
 DEBUG - Posición actual libre
 DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
 DEBUG - Posición actual - 1 libre
-DEBUG OP - Espacio libre
-DEBUG OP - Rejilla liberada
-DEBUG OP - Avión descendido
-DEBUG - Consulta exitosa
-Avión  0 solicita descenso desde la aerovía  4
-Descenso autorizado
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
 DEBUG - Posición actual libre
 DEBUG - Posición actual + 1 libre
 DEBUG - Posición actual - 1 libre
@@ -103,42 +174,122 @@ DEBUG - Posición actual - 1 libre
 DEBUG OP - Espacio libre
 DEBUG OP - Rejilla liberada
 DEBUG OP - Avión descendido
+DEBUG - Sacando avión del entorno...
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+Informacion del avion:  1
+Generando el nuevo avión...
+El nuevo avión pasó la barrera de seguridad
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio libre
+DEBUG OP - Rejilla liberada
+DEBUG OP - Avión descendido
+DEBUG - Sacando avión del entorno...
+ERROR en Desaparece avion: CONSTRAINT_ERROR
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+Avión  0 solicita descenso desde la aerovía  4
+Descenso autorizado
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio libre
+DEBUG OP - Rejilla liberada
+DEBUG OP - Avión descendido
 DEBUG - Consulta exitosa
 Informacion del avion:  1
 Generando el nuevo avión...
 El nuevo avión pasó la barrera de seguridad
 Avión  0 solicita descenso desde la aerovía  4
 Descenso autorizado
-DEBUG - Posición actual ocupada
-DEBUG - Posición actual + 1 libre
-DEBUG - Posición actual - 1 libre
-DEBUG OP - Espacio ocupado
-DEBUG - Consulta fallida
-DEBUG - Posición actual ocupada
-DEBUG - Posición actual + 1 libre
-DEBUG - Posición actual - 1 libre
-DEBUG OP - Espacio ocupado
-DEBUG - Consulta fallida
-DEBUG - Posición actual ocupada
-DEBUG - Posición actual + 1 libre
-DEBUG - Posición actual - 1 libre
-DEBUG OP - Espacio ocupado
-DEBUG - Consulta fallida
-DEBUG - Posición actual ocupada
-DEBUG - Posición actual + 1 libre
-DEBUG - Posición actual - 1 libre
-DEBUG OP - Espacio ocupado
-DEBUG - Consulta fallida
-DEBUG - Posición actual libre
-DEBUG - Posición actual + 1 libre
-DEBUG - Posición actual - 1 ocupada
-DEBUG OP - Espacio ocupado
-DEBUG - Consulta fallida
-DEBUG - Posición actual libre
-DEBUG - Posición actual + 1 libre
-DEBUG - Posición actual - 1 ocupada
-DEBUG OP - Espacio ocupado
-DEBUG - Consulta fallida
 DEBUG - Posición actual libre
 DEBUG - Posición actual + 1 libre
 DEBUG - Posición actual - 1 libre
@@ -155,6 +306,9 @@ DEBUG OP - Espacio libre
 DEBUG OP - Rejilla liberada
 DEBUG OP - Avión descendido
 DEBUG - Consulta exitosa
+Informacion del avion:  1
+Generando el nuevo avión...
+El nuevo avión pasó la barrera de seguridad
 Avión  0 solicita descenso desde la aerovía  4
 Descenso autorizado
 DEBUG - Posición actual libre
@@ -164,9 +318,331 @@ DEBUG OP - Espacio libre
 DEBUG OP - Rejilla liberada
 DEBUG OP - Avión descendido
 DEBUG - Consulta exitosa
-Informacion del avion:  1
+Informacion del avion:  2
 Generando el nuevo avión...
 El nuevo avión pasó la barrera de seguridad
+Avión  1 solicita descenso desde la aerovía  2
+Descenso autorizado
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio libre
+DEBUG OP - Rejilla liberada
+DEBUG OP - Avión descendido
+DEBUG - Consulta exitosa
+Avión  0 solicita descenso desde la aerovía  5
+Descenso autorizado
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+Avión  1 solicita descenso desde la aerovía  3
+Descenso autorizado
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio libre
+DEBUG OP - Rejilla liberada
+DEBUG OP - Avión descendido
+DEBUG - Consulta exitosa
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+Informacion del avion:  2
+Generando el nuevo avión...
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
 Avión  0 solicita descenso desde la aerovía  5
 Descenso autorizado
 DEBUG - Posición actual libre
@@ -175,13 +651,431 @@ DEBUG - Posición actual - 1 libre
 DEBUG OP - Espacio libre
 DEBUG OP - Rejilla liberada
 DEBUG OP - Avión descendido
+DEBUG - Sacando avión del entorno...
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio libre
+DEBUG OP - Rejilla liberada
+DEBUG OP - Avión descendido
+DEBUG - Sacando avión del entorno...
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+Avión  1 solicita descenso desde la aerovía  2
+Descenso autorizado
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio libre
+DEBUG OP - Rejilla liberada
+DEBUG OP - Avión descendido
 DEBUG - Consulta exitosa
-Informacion del avion:  1
-Generando el nuevo avión...
 El nuevo avión pasó la barrera de seguridad
 Informacion del avion:  2
 Generando el nuevo avión...
-El nuevo avión pasó la barrera de seguridad
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio libre
+DEBUG OP - Rejilla liberada
+DEBUG OP - Avión descendido
+DEBUG - Sacando avión del entorno...
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+Avión  1 solicita descenso desde la aerovía  4
+Descenso autorizado
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
 Informacion del avion:  2
 Generando el nuevo avión...
 El nuevo avión pasó la barrera de seguridad
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio libre
+DEBUG OP - Rejilla liberada
+DEBUG OP - Avión descendido
+DEBUG - Consulta exitosa
+colision entre:  1- 4   0- 2   distancia: 24
+ERROR en TASK ...: PKG_TIPOS.DETECTADA_COLISION
+Avión  0 solicita descenso desde la aerovía  5
+Descenso autorizado
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+Avión  2 solicita descenso desde la aerovía  1
+Descenso autorizado
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 ocupada
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+Avión  1 solicita descenso desde la aerovía  3
+Descenso autorizado
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio libre
+DEBUG OP - Rejilla liberada
+DEBUG OP - Avión descendido
+DEBUG - Consulta exitosa
+El nuevo avión pasó la barrera de seguridad
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 ocupada
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual libre
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio libre
+DEBUG OP - Rejilla liberada
+DEBUG OP - Avión descendido
+DEBUG - Consulta exitosa
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida
+Avión  1 solicita descenso desde la aerovía  4
+DEBUG - Posición actual ocupada
+DEBUG - Posición actual + 1 libre
+DEBUG - Posición actual - 1 libre
+DEBUG OP - Espacio ocupado
+DEBUG - Consulta fallida

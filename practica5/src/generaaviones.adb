@@ -126,9 +126,15 @@ package body GeneraAviones is
                   -- El avión intenta descender
                   aereovias(avion.aereovia+1).bajar(consulta,rejilla_act,avion.aereovia);
                   if consulta then
-                     Escribir("DEBUG - Consulta exitosa");
-                     desciende;
-                     descensoAux := true;
+                     if avion.aereovia + 1 = T_Rango_AereoVia'Last then
+                        Escribir("DEBUG - Sacando avión del entorno...");
+                        aereovias(avion.aereovia).liberar(Posicion_ZonaEspacioAereo(avion.pos.X));
+                        Desaparece(avion);
+                     else                                            
+                        Escribir("DEBUG - Consulta exitosa");
+                        desciende;
+                        descensoAux := true;
+                     end if;
                   else
                      Escribir("DEBUG - Consulta fallida");
                      sigue;
