@@ -1,0 +1,1 @@
+main_tareas_dinamicas.adb:4:04: warning: variable "ptrAvion" is read but never assigned [-gnatwv]

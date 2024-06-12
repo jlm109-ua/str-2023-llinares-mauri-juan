@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__holamundo.o
+[PROJECT FILES]
+/home/str/PRACTICAS/practica1/practica1.gpr
+20240611151248 21212410fa28a7b183a8f8be79ec0c40
+/usr/gnat/lib/gnat/gtkada.gpr
+20210624154234 62e3c3d91db7a53d915006648932ca0a
+[BOUND OBJECT FILES]
+/home/str/PRACTICAS/practica1/obj/holamundo.o
+[GENERATED SOURCE FILES]
+b__holamundo.ads
+b__holamundo.adb
+b__holamundo.ali
+[RESULTING OPTIONS]
+-L/home/str/PRACTICAS/practica1/obj/
+-L/home/str/PRACTICAS/practica1/obj/
+-L/usr/gnat/lib/gtkada/gtkada.static/gtkada/
+-L/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl

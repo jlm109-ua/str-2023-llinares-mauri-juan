@@ -1,0 +1,134 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_ALLOCATORS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV MAX_TASKS=1+
+
+U pkg_tareas_dinamicas%b  pkg_tareas_dinamicas.adb  c7879e22 OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.img_uns%s	s-imguns.ads		s-imguns.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U pkg_tareas_dinamicas%s  pkg_tareas_dinamicas.ads  6f319c42 EE OO PK IL
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20210520051126 0240fc73 ada.real_time%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-c.ads		20210520051131 d9beded9 interfaces.c%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D pkg_tareas_dinamicas.ads  20240612131404 6f319c42 pkg_tareas_dinamicas%s
+D pkg_tareas_dinamicas.adb  20240612131406 0642d70d pkg_tareas_dinamicas%b
+D system.ads		20210520051134 a2da961d system%s
+D s-atacco.ads		20210520051131 4c36d12f system.address_to_access_conversions%s
+D s-conca4.ads		20210520051131 7e642b20 system.concat_4%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051132 0d3f86a7 system.image_i%s
+D s-imageu.ads		20210520051132 525c30c6 system.image_u%s
+D s-imgint.ads		20210520051132 bdb6f5ec system.img_int%s
+D s-imguns.ads		20210520051132 0e4da2ac system.img_uns%s
+D s-linux.ads		20210520051126 ed0b8aee system.linux%s
+D s-multip.ads		20210520051132 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20210520095157 e3a42aec system.os_constants%s
+D s-osinte.ads		20210520051126 222ac181 system.os_interface%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051133 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-tasinf.ads		20210520051126 2b3f8252 system.task_info%s
+D s-taspri.ads		20210520051126 4ec891e7 system.task_primitives%s
+D s-taprop.ads		20210520051126 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20210520051126 88fba9ad system.tasking%s
+D s-tassta.ads		20210520051126 cca55c94 system.tasking.stages%s
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [tareageneraavionesTK pkg_tareas_dinamicas 27 9 none]
+G c Z s s [tareageneraavionesTKVIP pkg_tareas_dinamicas 27 4 none]
+G c Z s b [t_tareaavion pkg_tareas_dinamicas 29 14 none]
+G c Z s s [t_velocidadIP pkg_tareas_dinamicas 14 9 none]
+G c Z s s [t_recordavionIP pkg_tareas_dinamicas 19 9 none]
+G c Z s s [t_tareaavionVIP pkg_tareas_dinamicas 29 4 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|1r6 1r23
+X 10 a-textio.ads
+58K13*Text_IO 725e16 16|1w10 1r27
+506U14*Put_Line 16|27s7
+X 15 pkg_tareas_dinamicas.ads
+1K9*pkg_tareas_dinamicas 31l5 31e25 16|2b15 29l6 29t26
+2N4*MIN_VELOCIDAD_AVION 8r24
+3N4*MAX_VELOCIDAD_AVION 8r47
+4N4*VELOCIDAD_VUELO 16|14r38
+5N4*NUM_INICIAL_AVIONES_AEROVIA 10r26
+6N4*NUM_AEREOVIAS 12r52
+7I9*T_RangoVelocidad<integer> 15r11 16r11
+10M9*T_IdAvion 20r25 16|9r17 27r33
+12I9*T_Rango_AereoVia<integer> 22r25 16|10r26 10r50 27r72
+14R9*T_Velocidad 17e14 21r25
+15i7*X{7I9} 16|14m33
+16i7*Y{7I9} 16|15m33
+19R9*T_RecordAvion 24e14 25r37 16|12r30
+20m7*id{10M9} 16|13m23 27r59
+21r7*velocidad{14R9} 16|14m23 15m23
+22i7*aereovia{12I9} 16|16m23 27r105
+23b7*tren_aterrizaje{boolean} 16|17m23
+25P9*Ptr_T_RecordAvion(19R9) 29r40 16|6r21
+27t9*TareaGeneraAviones 16|4b14 22l8 22t26
+29T14*T_TareaAvion 29d28 30r34 16|19r32 24b14 28l8 28t20
+29p28 ptr_avion{25P9} 16|27r49 27r95
+30P9*Ptr_TareaAvion(29T14) 16|5r21
+X 16 pkg_tareas_dinamicas.adb
+5p7 tarea_avion{15|30P9} 19m13
+6p7 ptr_avion{15|25P9} 12m13 13r13 14r13 15r13 16r13 17r13 19r45
+9m11 id{15|10M9} 13r29
+10i14 aereovia<integer> 16r35
+X 36 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+

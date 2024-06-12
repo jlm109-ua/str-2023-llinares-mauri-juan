@@ -1,0 +1,23 @@
+[GENERATED OBJECT FILE]
+b__main_tareas_dinamicas.o
+[PROJECT FILES]
+/home/str/PRACTICAS/practica1/practica1.gpr
+20240612131158 86cb35609cc0019a77ef3f7145b0187d
+[BOUND OBJECT FILES]
+/home/str/PRACTICAS/practica1/obj/pkg_tareas_dinamicas.o
+/home/str/PRACTICAS/practica1/obj/main_tareas_dinamicas.o
+[GENERATED SOURCE FILES]
+b__main_tareas_dinamicas.ads
+b__main_tareas_dinamicas.adb
+b__main_tareas_dinamicas.ali
+[RESULTING OPTIONS]
+-L/home/str/PRACTICAS/practica1/obj/
+-L/home/str/PRACTICAS/practica1/obj/
+-L/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnarl.a
+/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-lrt
+-lpthread
+-ldl

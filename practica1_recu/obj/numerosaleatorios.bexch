@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__numerosaleatorios.o
+[PROJECT FILES]
+/home/str/PRACTICAS/practica1/practica1.gpr
+20240612123422 ee159325baa0c9ed490ea918421c3d92
+[BOUND OBJECT FILES]
+/home/str/PRACTICAS/practica1/obj/numerosaleatorios.o
+[GENERATED SOURCE FILES]
+b__numerosaleatorios.ads
+b__numerosaleatorios.adb
+b__numerosaleatorios.ali
+[RESULTING OPTIONS]
+-L/home/str/PRACTICAS/practica1/obj/
+-L/home/str/PRACTICAS/practica1/obj/
+-L/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-ldl

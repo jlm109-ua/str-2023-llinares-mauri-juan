@@ -1,0 +1,17 @@
+ 
+**************************************************************************
+**************************************************************************
+          PRACTICA STR: CONTROL DE TRAFICO AEREO
+**************************************************************************
+**************************************************************************
+ 
+Inicializando Entorno Gráfico...
+Entorno Gráfico Inicializado.
+colision entre:  1- 1   0- 1   distancia: 1
+COLISIÓN detectada en el avión cono ID: 1
+colision entre:  0- 3   1- 3   distancia: 39
+COLISIÓN detectada en el avión cono ID: 0
+colision entre:  1- 4   0- 4   distancia: 15
+COLISIÓN detectada en el avión cono ID: 1
+colision entre:  0- 1   2- 1   distancia: 9
+COLISIÓN detectada en el avión cono ID: 0

@@ -1,0 +1,23 @@
+[GENERATED OBJECT FILE]
+b__main_tareas_estaticas.o
+[PROJECT FILES]
+/home/str/PRACTICAS/practica1/practica1.gpr
+20240612125538 38de6b37444b1dbbbf84c56c54f95574
+[BOUND OBJECT FILES]
+/home/str/PRACTICAS/practica1/obj/pkg_tareas_estaticas.o
+/home/str/PRACTICAS/practica1/obj/main_tareas_estaticas.o
+[GENERATED SOURCE FILES]
+b__main_tareas_estaticas.ads
+b__main_tareas_estaticas.adb
+b__main_tareas_estaticas.ali
+[RESULTING OPTIONS]
+-L/home/str/PRACTICAS/practica1/obj/
+-L/home/str/PRACTICAS/practica1/obj/
+-L/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnarl.a
+/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-lrt
+-lpthread
+-ldl
