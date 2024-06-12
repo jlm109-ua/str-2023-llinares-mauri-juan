@@ -31,7 +31,12 @@ package body GeneraAviones is
             ptr_avion.aereovia_inicial := aereovia;
             ptr_avion.color := PKG_ColorAleatorio.Random(generadorColor);
 
-            -- La dirección la cambiamos en la tarea T_TareaAvion, que será única para cada avión.
+            -- Cambiamos la dirección de vuelo del avión
+            if ptr_avion.aereovia / 2 = 0 then
+               ptr_avion.velocidad.X := -VELOCIDAD_VUELO;
+            else
+               ptr_avion.velocidad.X := VELOCIDAD_VUELO;  
+            end if;
             
             ptr_avion.pos := PKG_graficos.Pos_Inicio(ptr_avion.aereovia);
                
@@ -51,12 +56,6 @@ package body GeneraAviones is
    begin
       avion := ptr_avion.all;
       Put_line("TASK Avion: " & T_IdAvion'Image(ptr_avion.id) & " -" & T_Rango_AereoVia'Image(ptr_avion.aereovia) & " - " & T_ColorAparicionAvion'Image(ptr_avion.color));
-   
-      if avion.aereovia / 2 = 0 then
-         ptr_avion.velocidad.X := -VELOCIDAD_VUELO;
-      else
-         ptr_avion.velocidad.X := VELOCIDAD_VUELO;  
-      end if;
       
       Aparece(avion);
       
