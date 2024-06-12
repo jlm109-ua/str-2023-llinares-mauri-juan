@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/generaaviones.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 11" >
+      <vfs_project>/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/generaaviones.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/crono.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 5" >
+      <vfs_project>/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/crono.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 4" >
+      <vfs_project>/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/crono.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/generaaviones.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/generaaviones.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 3" >
+      <vfs_project>/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/cronoAcu.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 7" >
+      <vfs_project>/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/cronolocal.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 6" >
+      <vfs_project>/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file>/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/cronolocal.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/cronoAcu.ads</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file >/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/generaaviones.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 11">
+      <vfs_project >/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file >/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/generaaviones.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3">
+      <vfs_project >/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file >/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/crono.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 5">
+      <vfs_project >/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file >/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/crono.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 4">
+      <vfs_project >/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file >/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/crono.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file >/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/generaaviones.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file >/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/generaaviones.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 3">
+      <vfs_project >/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file >/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/cronoAcu.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 7">
+      <vfs_project >/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file >/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/cronolocal.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 6">
+      <vfs_project >/home/str/str-2023-llinares-mauri-juan/practica3_recu/practica3.gpr</vfs_project>
+      <vfs_file >/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/cronolocal.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >/home/str/str-2023-llinares-mauri-juan/practica3_recu/src/cronoAcu.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

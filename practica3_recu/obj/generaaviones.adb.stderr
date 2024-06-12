@@ -1,0 +1,1 @@
+generaaviones.adb:11:04: warning: variable "color" is never read and never assigned [-gnatwv]
