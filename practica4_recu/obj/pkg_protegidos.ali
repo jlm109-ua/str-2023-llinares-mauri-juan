@@ -1,0 +1,151 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV MAX_PROTECTED_ENTRIES=1
+
+U pkg_protegidos%b	pkg_protegidos.adb	9f542c42 NE OO PK IL
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U pkg_protegidos%s	pkg_protegidos.ads	18725d0d EE OO PF PK IL
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W pkg_tipos%s		pkg_tipos.ads		pkg_tipos.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051127 bf4f806b ada.finalization%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-c.ads		20210520051131 d9beded9 interfaces.c%s
+D pkg_protegidos.ads	20240613144836 220c326f pkg_protegidos%s
+D pkg_protegidos.adb	20240613144912 bd581e2d pkg_protegidos%b
+D pkg_tipos.ads		20240613121521 3a7e6f62 pkg_tipos%s
+D system.ads		20210520051134 a2da961d system%s
+D s-atacco.ads		20210520051131 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-finmas.ads		20210520051131 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210520051131 4ff27390 system.finalization_root%s
+D s-linux.ads		20210520051126 ed0b8aee system.linux%s
+D s-multip.ads		20210520051132 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20210520095157 e3a42aec system.os_constants%s
+D s-osinte.ads		20210520051126 222ac181 system.os_interface%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051133 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210520051133 e9fa2dd8 system.storage_pools%s
+D s-tasinf.ads		20210520051126 2b3f8252 system.task_info%s
+D s-taspri.ads		20210520051126 4ec891e7 system.task_primitives%s
+D s-taskin.ads		20210520051126 88fba9ad system.tasking%s
+D s-taprob.ads		20210520051126 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210520051126 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20210520051126 5f548bb3 system.tasking.protected_objects.operations%s
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [posicion_zonaespacioaereo pkg_protegidos 6 13 none]
+G c Z s b [libre pkg_protegidos__op_aerovia 12 16 none]
+G c Z s b [ocupar pkg_protegidos__op_aerovia 14 17 none]
+G c Z s b [liberar pkg_protegidos__op_aerovia 16 17 none]
+G c Z s b [cambiar pkg_protegidos__op_aerovia 18 17 none]
+G c Z s b [inccontador pkg_protegidos__op_aerovia 22 17 none]
+G c Z s b [deccontador pkg_protegidos__op_aerovia 24 17 none]
+G c Z s b [cantidad pkg_protegidos__op_aerovia 26 16 none]
+G c Z s b [estadoaerovia pkg_protegidos__op_aerovia 29 13 none]
+G c Z s b [op_aerovia__libreN pkg_protegidos 12 7 none]
+G c Z s b [op_aerovia__libreP pkg_protegidos 12 7 none]
+G c Z s b [op_aerovia__ocuparN pkg_protegidos 14 7 none]
+G c Z s b [op_aerovia__ocuparP pkg_protegidos 14 7 none]
+G c Z s b [op_aerovia__liberarN pkg_protegidos 16 7 none]
+G c Z s b [op_aerovia__liberarP pkg_protegidos 16 7 none]
+G c Z s b [op_aerovia__cambiarN pkg_protegidos 18 7 none]
+G c Z s b [op_aerovia__cambiarP pkg_protegidos 18 7 none]
+G c Z s b [op_aerovia__inccontadorN pkg_protegidos 22 7 none]
+G c Z s b [op_aerovia__inccontadorP pkg_protegidos 22 7 none]
+G c Z s b [op_aerovia__deccontadorN pkg_protegidos 24 7 none]
+G c Z s b [op_aerovia__deccontadorP pkg_protegidos 24 7 none]
+G c Z s b [op_aerovia__cantidadN pkg_protegidos 26 7 none]
+G c Z s b [op_aerovia__cantidadP pkg_protegidos 26 7 none]
+G c Z s s [op_aeroviaVDI pkg_protegidos 8 4 none]
+G c Z s s [op_aeroviaVDF pkg_protegidos 8 4 none]
+G c Z s s [op_aeroviaVIP pkg_protegidos 8 4 none]
+G c Z s s [P2sIP pkg_protegidos 29 7 none]
+G c Z s s [TaeroviasBIP pkg_protegidos 38 4 none]
+G c Z s s [TaeroviasBDI pkg_protegidos 38 4 none]
+G c Z s s [TaeroviasBDF pkg_protegidos 38 4 none]
+X 12 pkg_protegidos.ads
+3K9*PKG_Protegidos 41l5 41e19 13|1b14 69l5 69t19
+5I12*contador{integer} 26r32 34r14 13|50r32
+6V13*Posicion_ZonaEspacioAereo{14|88M9} 6>39 13|3b13 6l8 6t33
+6i39 pos_x{14|74I12} 13|3b39 5r32
+8W19*OP_Aerovia 33E7 36l8 36e18 38r42 13|8b19 67l8 67t18
+12V16 libre{boolean} 12>22 13|12b16 15l11 15t16
+12m22 pos_x{14|88M9} 13|12b22 14r25
+14U17 ocupar 14>24 13|24b17 27l11 27t17 33s10
+14m24 pos_x{14|88M9} 13|24b24 26r18
+16U17 liberar 16>25 13|18b17 21l11 21t18 32s10
+16m25 pos_x{14|88M9} 13|18b25 20r18
+18U17 cambiar 18>25 18>57 13|30b17 34l11 34t18
+18m25 pos_ocupar{14|88M9} 13|30b25 33r17
+18m57 pos_liberar{14|88M9} 13|30b57 32r18
+22U17 incContador 13|38b17 41l11 41t22 64s10
+24U17 decContador 13|44b17 47l11 47t22
+26V16 cantidad{5I12} 13|50b16 53l11 53t19
+29Y13 estadoAerovia 29>27 13|55b13 65l11 65t24
+29m27 pos_x{14|88M9} 13|63r18
+33a7 aerovia{14|90A9} 13|14r17 20r10 26r10 56r13 57r17 58r17 59r17 63r10
+34i7 cont{5I12} 13|40r10 40r18 46r10 46r18 52r17 60r13
+38a4*aerovias(8W19)
+X 13 pkg_protegidos.adb
+55m27 pos_x{14|88M9}
+X 14 pkg_tipos.ads
+5K9*PKG_tipos 12|1w6 1r21 14|121e14
+44N4*MAX_AVIONES_AEROVIA 12|5r41 13|60r21
+48N4*X_INICIO_DER_AVION 13|5r57
+74I12*T_CoordenadaX{integer} 12|6r47 13|3r47
+87N4*TAM_X_REJILLA 13|5r40
+88M9*T_Rango_Rejilla_X 12|6r69 12r30 14r32 16r33 18r38 18r71 29r35 13|3r69
+. 5r14 12r30 18r33 24r32 30r38 30r71 55r35 56r21 57r25 58r25 59r25
+90A9*T_Rejilla_Ocupacion(boolean)<88M9> 12|33r17
+96I9*T_Rango_AereoVia<integer> 12|38r21
+X 29 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+
